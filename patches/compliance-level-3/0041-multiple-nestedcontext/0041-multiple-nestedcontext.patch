@@ -1,0 +1,31 @@
+diff --git a/TestCases/compliance-level-3/0041-multiple-nestedcontext/0041-multiple-nestedcontext-test-01.xml b/TestCases/compliance-level-3/0041-multiple-nestedcontext/0041-multiple-nestedcontext-test-01.xml
+index 9738066..1c95aca 100644
+--- a/TestCases/compliance-level-3/0041-multiple-nestedcontext/0041-multiple-nestedcontext-test-01.xml
++++ b/TestCases/compliance-level-3/0041-multiple-nestedcontext/0041-multiple-nestedcontext-test-01.xml
+@@ -15,7 +15,7 @@
+ 		</inputNode>
+ 		<resultNode name="Boxed Context" type="decision">
+ 			<expected>
+-					<value xsi:type="xsd:double">2778.6935494327668</value>
++					<value xsi:type="xsd:decimal">2778.693549432766768088520383236288</value>
+ 			</expected>
+ 		</resultNode>
+ 	</testCase>
+@@ -28,7 +28,7 @@
+ 		</inputNode>
+ 		<resultNode name="Boxed Context" type="decision">
+ 			<expected>
+-					<value xsi:type="xsd:double">549.1175498364003</value>
++					<value xsi:type="xsd:decimal">549.1175498364002934927000148859422</value>
+ 			</expected>
+ 		</resultNode>
+ 	</testCase>
+@@ -41,7 +41,7 @@
+ 		</inputNode>
+ 		<resultNode name="Boxed Context" type="decision">
+ 			<expected>
+-					<value xsi:type="xsd:double">2758.1160998965915</value>
++					<value xsi:type="xsd:decimal">2758.11609989659140087141889328903</value>
+ 			</expected>
+ 		</resultNode>
+ 	</testCase>

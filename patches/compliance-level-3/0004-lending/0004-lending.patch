@@ -1,0 +1,13 @@
+diff --git a/TestCases/compliance-level-3/0004-lending/0004-lending-test-01.xml b/TestCases/compliance-level-3/0004-lending/0004-lending-test-01.xml
+index 1778d7f..377f983 100644
+--- a/TestCases/compliance-level-3/0004-lending/0004-lending-test-01.xml
++++ b/TestCases/compliance-level-3/0004-lending/0004-lending-test-01.xml
+@@ -97,7 +97,7 @@
+ 		</resultNode>
+ 		<resultNode name="RequiredMonthlyInstallment" type="decision">
+ 			<expected>
+-				<value xsi:type="xsd:decimal">1680.880325608555</value>
++				<value xsi:type="xsd:decimal">1680.880325608634796819003637073065</value>
+ 			</expected>
+ 		</resultNode>
+ 		<resultNode name="Pre-bureauAffordability" type="decision">

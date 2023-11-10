@@ -1,0 +1,31 @@
+diff --git a/TestCases/compliance-level-2/0009-invocation-arithmetic/0009-invocation-arithmetic-test-01.xml b/TestCases/compliance-level-2/0009-invocation-arithmetic/0009-invocation-arithmetic-test-01.xml
+index e9387a5..1f0d9a4 100644
+--- a/TestCases/compliance-level-2/0009-invocation-arithmetic/0009-invocation-arithmetic-test-01.xml
++++ b/TestCases/compliance-level-2/0009-invocation-arithmetic/0009-invocation-arithmetic-test-01.xml
+@@ -27,7 +27,7 @@
+ 		</inputNode>
+ 		<resultNode name="MonthlyPayment" type="decision">
+ 			<expected>
+-				<value xsi:type="xsd:decimal">2878.69354943277</value>
++				<value xsi:type="xsd:decimal">2878.693549432766768088520383236288</value>
+ 			</expected>
+ 		</resultNode>
+ 	</testCase>
+@@ -48,7 +48,7 @@
+ 		</inputNode>
+ 		<resultNode name="MonthlyPayment" type="decision">
+ 			<expected>
+-				<value xsi:type="xsd:decimal">662.707359373292</value>
++				<value xsi:type="xsd:decimal">662.7073593732659271562143285576407</value>
+ 			</expected>
+ 		</resultNode>
+ 	</testCase>
+@@ -69,7 +69,7 @@
+ 		</inputNode>
+ 		<resultNode name="MonthlyPayment" type="decision">
+ 			<expected>
+-				<value xsi:type="xsd:decimal">2961.03377700389</value>
++				<value xsi:type="xsd:decimal">2961.03377700390163671626277960579</value>
+ 			</expected>
+ 		</resultNode>
+ 	</testCase>

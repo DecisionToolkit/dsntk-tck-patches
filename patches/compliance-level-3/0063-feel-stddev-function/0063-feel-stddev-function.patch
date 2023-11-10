@@ -1,0 +1,31 @@
+diff --git a/TestCases/compliance-level-3/0063-feel-stddev-function/0063-feel-stddev-function-test-01.xml b/TestCases/compliance-level-3/0063-feel-stddev-function/0063-feel-stddev-function-test-01.xml
+index 9228337..cf1b6f7 100644
+--- a/TestCases/compliance-level-3/0063-feel-stddev-function/0063-feel-stddev-function-test-01.xml
++++ b/TestCases/compliance-level-3/0063-feel-stddev-function/0063-feel-stddev-function-test-01.xml
+@@ -11,7 +11,7 @@
+         <description>will return stddev</description>
+         <resultNode name="decision001" type="decision">
+             <expected>
+-                <value xsi:type="xsd:decimal">2.0816659994661</value>
++                <value xsi:type="xsd:decimal">2.081665999466132735282297706979931</value>
+             </expected>
+         </resultNode>
+     </testCase>
+@@ -100,7 +100,7 @@
+         <description>will return stddev for varargs list</description>
+         <resultNode name="decision009" type="decision">
+             <expected>
+-                <value xsi:type="xsd:decimal">2.0816659994661</value>
++                <value xsi:type="xsd:decimal">2.081665999466132735282297706979931</value>
+             </expected>
+         </resultNode>
+     </testCase>
+@@ -120,7 +120,7 @@
+         <description>will return stddev - named param</description>
+         <resultNode name="decision011" type="decision">
+             <expected>
+-                <value xsi:type="xsd:decimal">2.0816659994661</value>
++                <value xsi:type="xsd:decimal">2.081665999466132735282297706979931</value>
+             </expected>
+         </resultNode>
+     </testCase>

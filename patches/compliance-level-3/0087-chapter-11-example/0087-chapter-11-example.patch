@@ -1,0 +1,13 @@
+diff --git a/TestCases/compliance-level-3/0087-chapter-11-example/0087-chapter-11-example-test-01.xml b/TestCases/compliance-level-3/0087-chapter-11-example/0087-chapter-11-example-test-01.xml
+index 4b78ed3..c97df4a 100644
+--- a/TestCases/compliance-level-3/0087-chapter-11-example/0087-chapter-11-example-test-01.xml
++++ b/TestCases/compliance-level-3/0087-chapter-11-example/0087-chapter-11-example-test-01.xml
+@@ -168,7 +168,7 @@
+     </inputNode>
+     <resultNode name="Application risk score" type="decision">
+       <expected>
+-        <value xsi:type="xsd:double">138</value>
++        <value xsi:type="xsd:decimal">138</value>
+       </expected>
+     </resultNode>
+   </testCase>

@@ -1,0 +1,1194 @@
+diff --git a/TestCases/compliance-level-3/0014-loan-comparison/0014-loan-comparison-test-01.xml b/TestCases/compliance-level-3/0014-loan-comparison/0014-loan-comparison-test-01.xml
+index acbf6e3..149b40c 100644
+--- a/TestCases/compliance-level-3/0014-loan-comparison/0014-loan-comparison-test-01.xml
++++ b/TestCases/compliance-level-3/0014-loan-comparison/0014-loan-comparison-test-01.xml
+@@ -29,7 +29,7 @@
+ 							<value xsi:type="xsd:string">Oceans Capital</value>
+ 						</component>
+ 						<component name="rate">
+-							<value xsi:type="xsd:decimal">.03500</value>
++							<value xsi:type="xsd:decimal">0.03500</value>
+ 						</component>
+ 						<component name="points">
+ 							<value xsi:type="xsd:decimal">0</value>
+@@ -43,7 +43,7 @@
+ 							<value xsi:type="xsd:string">eClick Lending</value>
+ 						</component>
+ 						<component name="rate">
+-							<value xsi:type="xsd:decimal">.03200</value>
++							<value xsi:type="xsd:decimal">0.03200</value>
+ 						</component>
+ 						<component name="points">
+ 							<value xsi:type="xsd:decimal">1.1</value>
+@@ -57,7 +57,7 @@
+ 							<value xsi:type="xsd:string">eClickLending</value>
+ 						</component>
+ 						<component name="rate">
+-							<value xsi:type="xsd:decimal">.03375</value>
++							<value xsi:type="xsd:decimal">0.03375</value>
+ 						</component>
+ 						<component name="points">
+ 							<value xsi:type="xsd:decimal">0.1</value>
+@@ -71,7 +71,7 @@
+ 							<value xsi:type="xsd:string">AimLoan</value>
+ 						</component>
+ 						<component name="rate">
+-							<value xsi:type="xsd:decimal">.03000</value>
++							<value xsi:type="xsd:decimal">0.03000</value>
+ 						</component>
+ 						<component name="points">
+ 							<value xsi:type="xsd:decimal">1.1</value>
+@@ -85,7 +85,7 @@
+ 							<value xsi:type="xsd:string">Home Loans Today</value>
+ 						</component>
+ 						<component name="rate">
+-							<value xsi:type="xsd:decimal">.03125</value>
++							<value xsi:type="xsd:decimal">0.03125</value>
+ 						</component>
+ 						<component name="points">
+ 							<value xsi:type="xsd:decimal">1.1</value>
+@@ -99,7 +99,7 @@
+ 							<value xsi:type="xsd:string">Sebonic</value>
+ 						</component>
+ 						<component name="rate">
+-							<value xsi:type="xsd:decimal">.03125</value>
++							<value xsi:type="xsd:decimal">0.03125</value>
+ 						</component>
+ 						<component name="points">
+ 							<value xsi:type="xsd:decimal">0.1</value>
+@@ -113,7 +113,7 @@
+ 							<value xsi:type="xsd:string">AimLoan</value>
+ 						</component>
+ 						<component name="rate">
+-							<value xsi:type="xsd:decimal">.03125</value>
++							<value xsi:type="xsd:decimal">0.03125</value>
+ 						</component>
+ 						<component name="points">
+ 							<value xsi:type="xsd:decimal">0.1</value>
+@@ -127,7 +127,7 @@
+ 							<value xsi:type="xsd:string">eRates Mortgage</value>
+ 						</component>
+ 						<component name="rate">
+-							<value xsi:type="xsd:decimal">.03125</value>
++							<value xsi:type="xsd:decimal">0.03125</value>
+ 						</component>
+ 						<component name="points">
+ 							<value xsi:type="xsd:decimal">1.1</value>
+@@ -141,7 +141,7 @@
+ 							<value xsi:type="xsd:string">Home Loans Today</value>
+ 						</component>
+ 						<component name="rate">
+-							<value xsi:type="xsd:decimal">.03250</value>
++							<value xsi:type="xsd:decimal">0.03250</value>
+ 						</component>
+ 						<component name="points">
+ 							<value xsi:type="xsd:decimal">0.1</value>
+@@ -155,7 +155,7 @@
+ 							<value xsi:type="xsd:string">AimLoan</value>
+ 						</component>
+ 						<component name="rate">
+-							<value xsi:type="xsd:decimal">.03250</value>
++							<value xsi:type="xsd:decimal">0.03250</value>
+ 						</component>
+ 						<component name="points">
+ 							<value xsi:type="xsd:decimal">0</value>
+@@ -176,7 +176,7 @@
+ 								<value xsi:type="xsd:string">Oceans Capital</value>
+ 							</component>
+ 							<component name="rate">
+-								<value xsi:type="xsd:decimal">.03500</value>
++								<value xsi:type="xsd:decimal">0.03500</value>
+ 							</component>
+ 							<component name="points">
+ 								<value xsi:type="xsd:decimal">0</value>
+@@ -191,10 +191,10 @@
+ 								<value xsi:type="xsd:decimal">66000</value>
+ 							</component>
+ 							<component name="paymentAmt">
+-								<value xsi:type="xsd:decimal">1481.847469769075</value>
++								<value xsi:type="xsd:decimal">1481.84746976912090291141532541092</value>
+ 							</component>
+ 							<component name="equity36moPct">
+-								<value xsi:type="xsd:decimal">0.1229130806675829</value>
++								<value xsi:type="xsd:decimal">0.1229130806675864888391782030891128</value>
+ 							</component>
+ 						</item>
+ 						<item>
+@@ -202,7 +202,7 @@
+ 								<value xsi:type="xsd:string">eClick Lending</value>
+ 							</component>
+ 							<component name="rate">
+-								<value xsi:type="xsd:decimal">.03200</value>
++								<value xsi:type="xsd:decimal">0.03200</value>
+ 							</component>
+ 							<component name="points">
+ 								<value xsi:type="xsd:decimal">1.1</value>
+@@ -217,10 +217,10 @@
+ 								<value xsi:type="xsd:decimal">67266</value>
+ 							</component>
+ 							<component name="paymentAmt">
+-								<value xsi:type="xsd:decimal">1454.51580776472</value>
++								<value xsi:type="xsd:decimal">1454.515807764692215596585144120557</value>
+ 							</component>
+ 							<component name="equity36moPct">
+-								<value xsi:type="xsd:decimal">0.1137029731874643</value>
++								<value xsi:type="xsd:decimal">0.113702973187458793444684616269924</value>
+ 							</component>
+ 						</item>
+ 						<item>
+@@ -228,7 +228,7 @@
+ 								<value xsi:type="xsd:string">eClickLending</value>
+ 							</component>
+ 							<component name="rate">
+-								<value xsi:type="xsd:decimal">.03375</value>
++								<value xsi:type="xsd:decimal">0.03375</value>
+ 							</component>
+ 							<component name="points">
+ 								<value xsi:type="xsd:decimal">0.1</value>
+@@ -243,10 +243,10 @@
+ 								<value xsi:type="xsd:decimal">66306</value>
+ 							</component>
+ 							<component name="paymentAmt">
+-								<value xsi:type="xsd:decimal">1465.681565899816</value>
++								<value xsi:type="xsd:decimal">1465.681565899863510819264705552203</value>
+ 							</component>
+ 							<component name="equity36moPct">
+-								<value xsi:type="xsd:decimal">0.1219807467513794</value>
++								<value xsi:type="xsd:decimal">0.1219807467513805938540322263850632</value>
+ 							</component>
+ 						</item>
+ 						<item>
+@@ -254,7 +254,7 @@
+ 								<value xsi:type="xsd:string">AimLoan</value>
+ 							</component>
+ 							<component name="rate">
+-								<value xsi:type="xsd:decimal">.03000</value>
++								<value xsi:type="xsd:decimal">0.03000</value>
+ 							</component>
+ 							<component name="points">
+ 								<value xsi:type="xsd:decimal">1.1</value>
+@@ -269,10 +269,10 @@
+ 								<value xsi:type="xsd:decimal">67519.2</value>
+ 							</component>
+ 							<component name="paymentAmt">
+-								<value xsi:type="xsd:decimal">1423.318353709273</value>
++								<value xsi:type="xsd:decimal">1423.31835370927550454489017290607</value>
+ 							</component>
+ 							<component name="equity36moPct">
+-								<value xsi:type="xsd:decimal">0.1154298007315222</value>
++								<value xsi:type="xsd:decimal">0.1154298007315239099518616327317256</value>
+ 							</component>
+ 						</item>
+ 						<item>
+@@ -280,7 +280,7 @@
+ 								<value xsi:type="xsd:string">Home Loans Today</value>
+ 							</component>
+ 							<component name="rate">
+-								<value xsi:type="xsd:decimal">.03125</value>
++								<value xsi:type="xsd:decimal">0.03125</value>
+ 							</component>
+ 							<component name="points">
+ 								<value xsi:type="xsd:decimal">1.1</value>
+@@ -295,10 +295,10 @@
+ 								<value xsi:type="xsd:decimal">66783</value>
+ 							</component>
+ 							<component name="paymentAmt">
+-								<value xsi:type="xsd:decimal">1430.409890005697</value>
++								<value xsi:type="xsd:decimal">1430.409890005738806923767229688187</value>
+ 							</component>
+ 							<component name="equity36moPct">
+-								<value xsi:type="xsd:decimal">0.1219478687825963</value>
++								<value xsi:type="xsd:decimal">0.1219478687825970483711604225076944</value>
+ 							</component>
+ 						</item>
+ 						<item>
+@@ -306,7 +306,7 @@
+ 								<value xsi:type="xsd:string">Sebonic</value>
+ 							</component>
+ 							<component name="rate">
+-								<value xsi:type="xsd:decimal">.03125</value>
++								<value xsi:type="xsd:decimal">0.03125</value>
+ 							</component>
+ 							<component name="points">
+ 								<value xsi:type="xsd:decimal">0.1</value>
+@@ -321,10 +321,10 @@
+ 								<value xsi:type="xsd:decimal">66871.6</value>
+ 							</component>
+ 							<component name="paymentAmt">
+-								<value xsi:type="xsd:decimal">1432.307593257341</value>
++								<value xsi:type="xsd:decimal">1432.3075932573823158750489297698</value>
+ 							</component>
+ 							<component name="equity36moPct">
+-								<value xsi:type="xsd:decimal">0.1207829702481527</value>
++								<value xsi:type="xsd:decimal">0.1207829702481517269343529237944616</value>
+ 							</component>
+ 						</item>
+ 						<item>
+@@ -332,7 +332,7 @@
+ 								<value xsi:type="xsd:string">AimLoan</value>
+ 							</component>
+ 							<component name="rate">
+-								<value xsi:type="xsd:decimal">.03125</value>
++								<value xsi:type="xsd:decimal">0.03125</value>
+ 							</component>
+ 							<component name="points">
+ 								<value xsi:type="xsd:decimal">0.1</value>
+@@ -347,10 +347,10 @@
+ 								<value xsi:type="xsd:decimal">66929.4</value>
+ 							</component>
+ 							<component name="paymentAmt">
+-								<value xsi:type="xsd:decimal">1433.545598313153</value>
++								<value xsi:type="xsd:decimal">1433.545598313194898464034056911078</value>
+ 							</component>
+ 							<component name="equity36moPct">
+-								<value xsi:type="xsd:decimal">0.1200230251545745</value>
++								<value xsi:type="xsd:decimal">0.1200230251545745307825755713607728</value>
+ 							</component>
+ 						</item>
+ 						<item>
+@@ -358,7 +358,7 @@
+ 								<value xsi:type="xsd:string">eRates Mortgage</value>
+ 							</component>
+ 							<component name="rate">
+-								<value xsi:type="xsd:decimal">.03125</value>
++								<value xsi:type="xsd:decimal">0.03125</value>
+ 							</component>
+ 							<component name="points">
+ 								<value xsi:type="xsd:decimal">1.1</value>
+@@ -373,10 +373,10 @@
+ 								<value xsi:type="xsd:decimal">67229.6</value>
+ 							</component>
+ 							<component name="paymentAmt">
+-								<value xsi:type="xsd:decimal">1439.975513845245</value>
++								<value xsi:type="xsd:decimal">1439.975513845287239177067537323045</value>
+ 							</component>
+ 							<component name="equity36moPct">
+-								<value xsi:type="xsd:decimal">0.1160760438900096</value>
++								<value xsi:type="xsd:decimal">0.116076043890009231738223301454312</value>
+ 							</component>
+ 						</item>
+ 						<item>
+@@ -384,7 +384,7 @@
+ 								<value xsi:type="xsd:string">Home Loans Today</value>
+ 							</component>
+ 							<component name="rate">
+-								<value xsi:type="xsd:decimal">.03250</value>
++								<value xsi:type="xsd:decimal">0.03250</value>
+ 							</component>
+ 							<component name="points">
+ 								<value xsi:type="xsd:decimal">0.1</value>
+@@ -399,10 +399,10 @@
+ 								<value xsi:type="xsd:decimal">66230.4</value>
+ 							</component>
+ 							<component name="paymentAmt">
+-								<value xsi:type="xsd:decimal">1441.194429734607</value>
++								<value xsi:type="xsd:decimal">1441.194429734569798816940611550537</value>
+ 							</component>
+ 							<component name="equity36moPct">
+-								<value xsi:type="xsd:decimal">0.1261025270361139</value>
++								<value xsi:type="xsd:decimal">0.126102527036108194734017086504168</value>
+ 							</component>
+ 						</item>
+ 						<item>
+@@ -410,7 +410,7 @@
+ 								<value xsi:type="xsd:string">AimLoan</value>
+ 							</component>
+ 							<component name="rate">
+-								<value xsi:type="xsd:decimal">.03250</value>
++								<value xsi:type="xsd:decimal">0.03250</value>
+ 							</component>
+ 							<component name="points">
+ 								<value xsi:type="xsd:decimal">0</value>
+@@ -425,10 +425,10 @@
+ 								<value xsi:type="xsd:decimal">66399</value>
+ 							</component>
+ 							<component name="paymentAmt">
+-								<value xsi:type="xsd:decimal">1444.863219004387</value>
++								<value xsi:type="xsd:decimal">1444.863219004349967260442933552328</value>
+ 							</component>
+ 							<component name="equity36moPct">
+-								<value xsi:type="xsd:decimal">0.1238778822515175</value>
++								<value xsi:type="xsd:decimal">0.1238778822515121156167560595555856</value>
+ 							</component>
+ 						</item>
+ 					</list>
+@@ -440,7 +440,7 @@
+ 								<value xsi:type="xsd:string">AimLoan</value>
+ 							</component>
+ 							<component name="rate">
+-								<value xsi:type="xsd:decimal">.03000</value>
++								<value xsi:type="xsd:decimal">0.03000</value>
+ 							</component>
+ 							<component name="points">
+ 								<value xsi:type="xsd:decimal">1.1</value>
+@@ -455,10 +455,10 @@
+ 								<value xsi:type="xsd:decimal">67519.2</value>
+ 							</component>
+ 							<component name="paymentAmt">
+-								<value xsi:type="xsd:decimal">1423.318353709273</value>
++								<value xsi:type="xsd:decimal">1423.31835370927550454489017290607</value>
+ 							</component>
+ 							<component name="equity36moPct">
+-								<value xsi:type="xsd:decimal">0.1154298007315222</value>
++								<value xsi:type="xsd:decimal">0.1154298007315239099518616327317256</value>
+ 							</component>
+ 						</item>
+ 						<item>
+@@ -466,7 +466,7 @@
+ 								<value xsi:type="xsd:string">Home Loans Today</value>
+ 							</component>
+ 							<component name="rate">
+-								<value xsi:type="xsd:decimal">.03125</value>
++								<value xsi:type="xsd:decimal">0.03125</value>
+ 							</component>
+ 							<component name="points">
+ 								<value xsi:type="xsd:decimal">1.1</value>
+@@ -481,10 +481,10 @@
+ 								<value xsi:type="xsd:decimal">66783</value>
+ 							</component>
+ 							<component name="paymentAmt">
+-								<value xsi:type="xsd:decimal">1430.409890005697</value>
++								<value xsi:type="xsd:decimal">1430.409890005738806923767229688187</value>
+ 							</component>
+ 							<component name="equity36moPct">
+-								<value xsi:type="xsd:decimal">0.1219478687825963</value>
++								<value xsi:type="xsd:decimal">0.1219478687825970483711604225076944</value>
+ 							</component>
+ 						</item>
+ 						<item>
+@@ -492,7 +492,7 @@
+ 								<value xsi:type="xsd:string">Sebonic</value>
+ 							</component>
+ 							<component name="rate">
+-								<value xsi:type="xsd:decimal">.03125</value>
++								<value xsi:type="xsd:decimal">0.03125</value>
+ 							</component>
+ 							<component name="points">
+ 								<value xsi:type="xsd:decimal">0.1</value>
+@@ -507,10 +507,10 @@
+ 								<value xsi:type="xsd:decimal">66871.6</value>
+ 							</component>
+ 							<component name="paymentAmt">
+-								<value xsi:type="xsd:decimal">1432.307593257341</value>
++								<value xsi:type="xsd:decimal">1432.3075932573823158750489297698</value>
+ 							</component>
+ 							<component name="equity36moPct">
+-								<value xsi:type="xsd:decimal">0.1207829702481527</value>
++								<value xsi:type="xsd:decimal">0.1207829702481517269343529237944616</value>
+ 							</component>
+ 						</item>
+ 						<item>
+@@ -518,7 +518,7 @@
+ 								<value xsi:type="xsd:string">AimLoan</value>
+ 							</component>
+ 							<component name="rate">
+-								<value xsi:type="xsd:decimal">.03125</value>
++								<value xsi:type="xsd:decimal">0.03125</value>
+ 							</component>
+ 							<component name="points">
+ 								<value xsi:type="xsd:decimal">0.1</value>
+@@ -533,10 +533,10 @@
+ 								<value xsi:type="xsd:decimal">66929.4</value>
+ 							</component>
+ 							<component name="paymentAmt">
+-								<value xsi:type="xsd:decimal">1433.545598313153</value>
++								<value xsi:type="xsd:decimal">1433.545598313194898464034056911078</value>
+ 							</component>
+ 							<component name="equity36moPct">
+-								<value xsi:type="xsd:decimal">0.1200230251545745</value>
++								<value xsi:type="xsd:decimal">0.1200230251545745307825755713607728</value>
+ 							</component>
+ 						</item>
+ 						<item>
+@@ -544,7 +544,7 @@
+ 								<value xsi:type="xsd:string">eRates Mortgage</value>
+ 							</component>
+ 							<component name="rate">
+-								<value xsi:type="xsd:decimal">.03125</value>
++								<value xsi:type="xsd:decimal">0.03125</value>
+ 							</component>
+ 							<component name="points">
+ 								<value xsi:type="xsd:decimal">1.1</value>
+@@ -559,10 +559,10 @@
+ 								<value xsi:type="xsd:decimal">67229.6</value>
+ 							</component>
+ 							<component name="paymentAmt">
+-								<value xsi:type="xsd:decimal">1439.975513845245</value>
++								<value xsi:type="xsd:decimal">1439.975513845287239177067537323045</value>
+ 							</component>
+ 							<component name="equity36moPct">
+-								<value xsi:type="xsd:decimal">0.1160760438900096</value>
++								<value xsi:type="xsd:decimal">0.116076043890009231738223301454312</value>
+ 							</component>
+ 						</item>
+ 						<item>
+@@ -570,7 +570,7 @@
+ 								<value xsi:type="xsd:string">eClick Lending</value>
+ 							</component>
+ 							<component name="rate">
+-								<value xsi:type="xsd:decimal">.03200</value>
++								<value xsi:type="xsd:decimal">0.03200</value>
+ 							</component>
+ 							<component name="points">
+ 								<value xsi:type="xsd:decimal">1.1</value>
+@@ -585,10 +585,10 @@
+ 								<value xsi:type="xsd:decimal">67266</value>
+ 							</component>
+ 							<component name="paymentAmt">
+-								<value xsi:type="xsd:decimal">1454.51580776472</value>
++								<value xsi:type="xsd:decimal">1454.515807764692215596585144120557</value>
+ 							</component>
+ 							<component name="equity36moPct">
+-								<value xsi:type="xsd:decimal">0.1137029731874643</value>
++								<value xsi:type="xsd:decimal">0.113702973187458793444684616269924</value>
+ 							</component>
+ 						</item>
+ 						<item>
+@@ -596,7 +596,7 @@
+ 								<value xsi:type="xsd:string">Home Loans Today</value>
+ 							</component>
+ 							<component name="rate">
+-								<value xsi:type="xsd:decimal">.03250</value>
++								<value xsi:type="xsd:decimal">0.03250</value>
+ 							</component>
+ 							<component name="points">
+ 								<value xsi:type="xsd:decimal">0.1</value>
+@@ -611,10 +611,10 @@
+ 								<value xsi:type="xsd:decimal">66230.4</value>
+ 							</component>
+ 							<component name="paymentAmt">
+-								<value xsi:type="xsd:decimal">1441.194429734607</value>
++								<value xsi:type="xsd:decimal">1441.194429734569798816940611550537</value>
+ 							</component>
+ 							<component name="equity36moPct">
+-								<value xsi:type="xsd:decimal">0.1261025270361139</value>
++								<value xsi:type="xsd:decimal">0.126102527036108194734017086504168</value>
+ 							</component>
+ 						</item>
+ 						<item>
+@@ -622,7 +622,7 @@
+ 								<value xsi:type="xsd:string">AimLoan</value>
+ 							</component>
+ 							<component name="rate">
+-								<value xsi:type="xsd:decimal">.03250</value>
++								<value xsi:type="xsd:decimal">0.03250</value>
+ 							</component>
+ 							<component name="points">
+ 								<value xsi:type="xsd:decimal">0</value>
+@@ -637,10 +637,10 @@
+ 								<value xsi:type="xsd:decimal">66399</value>
+ 							</component>
+ 							<component name="paymentAmt">
+-								<value xsi:type="xsd:decimal">1444.863219004387</value>
++								<value xsi:type="xsd:decimal">1444.863219004349967260442933552328</value>
+ 							</component>
+ 							<component name="equity36moPct">
+-								<value xsi:type="xsd:decimal">0.1238778822515175</value>
++								<value xsi:type="xsd:decimal">0.1238778822515121156167560595555856</value>
+ 							</component>
+ 						</item>
+ 						<item>
+@@ -648,7 +648,7 @@
+ 								<value xsi:type="xsd:string">eClickLending</value>
+ 							</component>
+ 							<component name="rate">
+-								<value xsi:type="xsd:decimal">.03375</value>
++								<value xsi:type="xsd:decimal">0.03375</value>
+ 							</component>
+ 							<component name="points">
+ 								<value xsi:type="xsd:decimal">0.1</value>
+@@ -663,10 +663,10 @@
+ 								<value xsi:type="xsd:decimal">66306</value>
+ 							</component>
+ 							<component name="paymentAmt">
+-								<value xsi:type="xsd:decimal">1465.681565899816</value>
++								<value xsi:type="xsd:decimal">1465.681565899863510819264705552203</value>
+ 							</component>
+ 							<component name="equity36moPct">
+-								<value xsi:type="xsd:decimal">0.1219807467513794</value>
++								<value xsi:type="xsd:decimal">0.1219807467513805938540322263850632</value>
+ 							</component>
+ 						</item>
+ 						<item>
+@@ -674,7 +674,7 @@
+ 								<value xsi:type="xsd:string">Oceans Capital</value>
+ 							</component>
+ 							<component name="rate">
+-								<value xsi:type="xsd:decimal">.03500</value>
++								<value xsi:type="xsd:decimal">0.03500</value>
+ 							</component>
+ 							<component name="points">
+ 								<value xsi:type="xsd:decimal">0</value>
+@@ -689,10 +689,10 @@
+ 								<value xsi:type="xsd:decimal">66000</value>
+ 							</component>
+ 							<component name="paymentAmt">
+-								<value xsi:type="xsd:decimal">1481.847469769075</value>
++								<value xsi:type="xsd:decimal">1481.84746976912090291141532541092</value>
+ 							</component>
+ 							<component name="equity36moPct">
+-								<value xsi:type="xsd:decimal">0.1229130806675829</value>
++								<value xsi:type="xsd:decimal">0.1229130806675864888391782030891128</value>
+ 							</component>
+ 						</item>
+ 					</list>
+@@ -704,7 +704,7 @@
+ 								<value xsi:type="xsd:string">Oceans Capital</value>
+ 							</component>
+ 							<component name="rate">
+-								<value xsi:type="xsd:decimal">.03500</value>
++								<value xsi:type="xsd:decimal">0.03500</value>
+ 							</component>
+ 							<component name="points">
+ 								<value xsi:type="xsd:decimal">0</value>
+@@ -719,10 +719,10 @@
+ 								<value xsi:type="xsd:decimal">66000</value>
+ 							</component>
+ 							<component name="paymentAmt">
+-								<value xsi:type="xsd:decimal">1481.847469769075</value>
++								<value xsi:type="xsd:decimal">1481.84746976912090291141532541092</value>
+ 							</component>
+ 							<component name="equity36moPct">
+-								<value xsi:type="xsd:decimal">0.1229130806675829</value>
++								<value xsi:type="xsd:decimal">0.1229130806675864888391782030891128</value>
+ 							</component>
+ 						</item>
+ 						<item>
+@@ -730,7 +730,7 @@
+ 								<value xsi:type="xsd:string">Home Loans Today</value>
+ 							</component>
+ 							<component name="rate">
+-								<value xsi:type="xsd:decimal">.03250</value>
++								<value xsi:type="xsd:decimal">0.03250</value>
+ 							</component>
+ 							<component name="points">
+ 								<value xsi:type="xsd:decimal">0.1</value>
+@@ -745,10 +745,10 @@
+ 								<value xsi:type="xsd:decimal">66230.4</value>
+ 							</component>
+ 							<component name="paymentAmt">
+-								<value xsi:type="xsd:decimal">1441.194429734607</value>
++								<value xsi:type="xsd:decimal">1441.194429734569798816940611550537</value>
+ 							</component>
+ 							<component name="equity36moPct">
+-								<value xsi:type="xsd:decimal">0.1261025270361139</value>
++								<value xsi:type="xsd:decimal">0.126102527036108194734017086504168</value>
+ 							</component>
+ 						</item>
+ 						<item>
+@@ -756,7 +756,7 @@
+ 								<value xsi:type="xsd:string">eClickLending</value>
+ 							</component>
+ 							<component name="rate">
+-								<value xsi:type="xsd:decimal">.03375</value>
++								<value xsi:type="xsd:decimal">0.03375</value>
+ 							</component>
+ 							<component name="points">
+ 								<value xsi:type="xsd:decimal">0.1</value>
+@@ -771,10 +771,10 @@
+ 								<value xsi:type="xsd:decimal">66306</value>
+ 							</component>
+ 							<component name="paymentAmt">
+-								<value xsi:type="xsd:decimal">1465.681565899816</value>
++								<value xsi:type="xsd:decimal">1465.681565899863510819264705552203</value>
+ 							</component>
+ 							<component name="equity36moPct">
+-								<value xsi:type="xsd:decimal">0.1219807467513794</value>
++								<value xsi:type="xsd:decimal">0.1219807467513805938540322263850632</value>
+ 							</component>
+ 						</item>
+ 						<item>
+@@ -782,7 +782,7 @@
+ 								<value xsi:type="xsd:string">AimLoan</value>
+ 							</component>
+ 							<component name="rate">
+-								<value xsi:type="xsd:decimal">.03250</value>
++								<value xsi:type="xsd:decimal">0.03250</value>
+ 							</component>
+ 							<component name="points">
+ 								<value xsi:type="xsd:decimal">0</value>
+@@ -797,10 +797,10 @@
+ 								<value xsi:type="xsd:decimal">66399</value>
+ 							</component>
+ 							<component name="paymentAmt">
+-								<value xsi:type="xsd:decimal">1444.863219004387</value>
++								<value xsi:type="xsd:decimal">1444.863219004349967260442933552328</value>
+ 							</component>
+ 							<component name="equity36moPct">
+-								<value xsi:type="xsd:decimal">0.1238778822515175</value>
++								<value xsi:type="xsd:decimal">0.1238778822515121156167560595555856</value>
+ 							</component>
+ 						</item>
+ 						<item>
+@@ -808,7 +808,7 @@
+ 								<value xsi:type="xsd:string">Home Loans Today</value>
+ 							</component>
+ 							<component name="rate">
+-								<value xsi:type="xsd:decimal">.03125</value>
++								<value xsi:type="xsd:decimal">0.03125</value>
+ 							</component>
+ 							<component name="points">
+ 								<value xsi:type="xsd:decimal">1.1</value>
+@@ -823,10 +823,10 @@
+ 								<value xsi:type="xsd:decimal">66783</value>
+ 							</component>
+ 							<component name="paymentAmt">
+-								<value xsi:type="xsd:decimal">1430.409890005697</value>
++								<value xsi:type="xsd:decimal">1430.409890005738806923767229688187</value>
+ 							</component>
+ 							<component name="equity36moPct">
+-								<value xsi:type="xsd:decimal">0.1219478687825963</value>
++								<value xsi:type="xsd:decimal">0.1219478687825970483711604225076944</value>
+ 							</component>
+ 						</item>
+ 						<item>
+@@ -834,7 +834,7 @@
+ 								<value xsi:type="xsd:string">Sebonic</value>
+ 							</component>
+ 							<component name="rate">
+-								<value xsi:type="xsd:decimal">.03125</value>
++								<value xsi:type="xsd:decimal">0.03125</value>
+ 							</component>
+ 							<component name="points">
+ 								<value xsi:type="xsd:decimal">0.1</value>
+@@ -849,10 +849,10 @@
+ 								<value xsi:type="xsd:decimal">66871.6</value>
+ 							</component>
+ 							<component name="paymentAmt">
+-								<value xsi:type="xsd:decimal">1432.307593257341</value>
++								<value xsi:type="xsd:decimal">1432.3075932573823158750489297698</value>
+ 							</component>
+ 							<component name="equity36moPct">
+-								<value xsi:type="xsd:decimal">0.1207829702481527</value>
++								<value xsi:type="xsd:decimal">0.1207829702481517269343529237944616</value>
+ 							</component>
+ 						</item>
+ 						<item>
+@@ -860,7 +860,7 @@
+ 								<value xsi:type="xsd:string">AimLoan</value>
+ 							</component>
+ 							<component name="rate">
+-								<value xsi:type="xsd:decimal">.03125</value>
++								<value xsi:type="xsd:decimal">0.03125</value>
+ 							</component>
+ 							<component name="points">
+ 								<value xsi:type="xsd:decimal">0.1</value>
+@@ -875,10 +875,10 @@
+ 								<value xsi:type="xsd:decimal">66929.4</value>
+ 							</component>
+ 							<component name="paymentAmt">
+-								<value xsi:type="xsd:decimal">1433.545598313153</value>
++								<value xsi:type="xsd:decimal">1433.545598313194898464034056911078</value>
+ 							</component>
+ 							<component name="equity36moPct">
+-								<value xsi:type="xsd:decimal">0.1200230251545745</value>
++								<value xsi:type="xsd:decimal">0.1200230251545745307825755713607728</value>
+ 							</component>
+ 						</item>
+ 						<item>
+@@ -886,7 +886,7 @@
+ 								<value xsi:type="xsd:string">eRates Mortgage</value>
+ 							</component>
+ 							<component name="rate">
+-								<value xsi:type="xsd:decimal">.03125</value>
++								<value xsi:type="xsd:decimal">0.03125</value>
+ 							</component>
+ 							<component name="points">
+ 								<value xsi:type="xsd:decimal">1.1</value>
+@@ -901,10 +901,10 @@
+ 								<value xsi:type="xsd:decimal">67229.6</value>
+ 							</component>
+ 							<component name="paymentAmt">
+-								<value xsi:type="xsd:decimal">1439.975513845245</value>
++								<value xsi:type="xsd:decimal">1439.975513845287239177067537323045</value>
+ 							</component>
+ 							<component name="equity36moPct">
+-								<value xsi:type="xsd:decimal">0.1160760438900096</value>
++								<value xsi:type="xsd:decimal">0.116076043890009231738223301454312</value>
+ 							</component>
+ 						</item>
+ 						<item>
+@@ -912,7 +912,7 @@
+ 								<value xsi:type="xsd:string">eClick Lending</value>
+ 							</component>
+ 							<component name="rate">
+-								<value xsi:type="xsd:decimal">.03200</value>
++								<value xsi:type="xsd:decimal">0.03200</value>
+ 							</component>
+ 							<component name="points">
+ 								<value xsi:type="xsd:decimal">1.1</value>
+@@ -927,10 +927,10 @@
+ 								<value xsi:type="xsd:decimal">67266</value>
+ 							</component>
+ 							<component name="paymentAmt">
+-								<value xsi:type="xsd:decimal">1454.51580776472</value>
++								<value xsi:type="xsd:decimal">1454.515807764692215596585144120557</value>
+ 							</component>
+ 							<component name="equity36moPct">
+-								<value xsi:type="xsd:decimal">0.1137029731874643</value>
++								<value xsi:type="xsd:decimal">0.113702973187458793444684616269924</value>
+ 							</component>
+ 						</item>
+ 						<item>
+@@ -938,7 +938,7 @@
+ 								<value xsi:type="xsd:string">AimLoan</value>
+ 							</component>
+ 							<component name="rate">
+-								<value xsi:type="xsd:decimal">.03000</value>
++								<value xsi:type="xsd:decimal">0.03000</value>
+ 							</component>
+ 							<component name="points">
+ 								<value xsi:type="xsd:decimal">1.1</value>
+@@ -953,10 +953,10 @@
+ 								<value xsi:type="xsd:decimal">67519.2</value>
+ 							</component>
+ 							<component name="paymentAmt">
+-								<value xsi:type="xsd:decimal">1423.318353709273</value>
++								<value xsi:type="xsd:decimal">1423.31835370927550454489017290607</value>
+ 							</component>
+ 							<component name="equity36moPct">
+-								<value xsi:type="xsd:decimal">0.1154298007315222</value>
++								<value xsi:type="xsd:decimal">0.1154298007315239099518616327317256</value>
+ 							</component>
+ 						</item>
+ 					</list>
+@@ -968,7 +968,7 @@
+ 								<value xsi:type="xsd:string">AimLoan</value>
+ 							</component>
+ 							<component name="rate">
+-								<value xsi:type="xsd:decimal">.03000</value>
++								<value xsi:type="xsd:decimal">0.03000</value>
+ 							</component>
+ 							<component name="points">
+ 								<value xsi:type="xsd:decimal">1.1</value>
+@@ -983,10 +983,10 @@
+ 								<value xsi:type="xsd:decimal">67519.2</value>
+ 							</component>
+ 							<component name="paymentAmt">
+-								<value xsi:type="xsd:decimal">1423.318353709273</value>
++								<value xsi:type="xsd:decimal">1423.31835370927550454489017290607</value>
+ 							</component>
+ 							<component name="equity36moPct">
+-								<value xsi:type="xsd:decimal">0.1154298007315222</value>
++								<value xsi:type="xsd:decimal">0.1154298007315239099518616327317256</value>
+ 							</component>
+ 						</item>
+ 						<item>
+@@ -994,7 +994,7 @@
+ 								<value xsi:type="xsd:string">Home Loans Today</value>
+ 							</component>
+ 							<component name="rate">
+-								<value xsi:type="xsd:decimal">.03125</value>
++								<value xsi:type="xsd:decimal">0.03125</value>
+ 							</component>
+ 							<component name="points">
+ 								<value xsi:type="xsd:decimal">1.1</value>
+@@ -1009,10 +1009,10 @@
+ 								<value xsi:type="xsd:decimal">66783</value>
+ 							</component>
+ 							<component name="paymentAmt">
+-								<value xsi:type="xsd:decimal">1430.409890005697</value>
++								<value xsi:type="xsd:decimal">1430.409890005738806923767229688187</value>
+ 							</component>
+ 							<component name="equity36moPct">
+-								<value xsi:type="xsd:decimal">0.1219478687825963</value>
++								<value xsi:type="xsd:decimal">0.1219478687825970483711604225076944</value>
+ 							</component>
+ 						</item>
+ 						<item>
+@@ -1020,7 +1020,7 @@
+ 								<value xsi:type="xsd:string">Sebonic</value>
+ 							</component>
+ 							<component name="rate">
+-								<value xsi:type="xsd:decimal">.03125</value>
++								<value xsi:type="xsd:decimal">0.03125</value>
+ 							</component>
+ 							<component name="points">
+ 								<value xsi:type="xsd:decimal">0.1</value>
+@@ -1035,10 +1035,10 @@
+ 								<value xsi:type="xsd:decimal">66871.6</value>
+ 							</component>
+ 							<component name="paymentAmt">
+-								<value xsi:type="xsd:decimal">1432.307593257341</value>
++								<value xsi:type="xsd:decimal">1432.3075932573823158750489297698</value>
+ 							</component>
+ 							<component name="equity36moPct">
+-								<value xsi:type="xsd:decimal">0.1207829702481527</value>
++								<value xsi:type="xsd:decimal">0.1207829702481517269343529237944616</value>
+ 							</component>
+ 						</item>
+ 						<item>
+@@ -1046,7 +1046,7 @@
+ 								<value xsi:type="xsd:string">AimLoan</value>
+ 							</component>
+ 							<component name="rate">
+-								<value xsi:type="xsd:decimal">.03125</value>
++								<value xsi:type="xsd:decimal">0.03125</value>
+ 							</component>
+ 							<component name="points">
+ 								<value xsi:type="xsd:decimal">0.1</value>
+@@ -1061,10 +1061,10 @@
+ 								<value xsi:type="xsd:decimal">66929.4</value>
+ 							</component>
+ 							<component name="paymentAmt">
+-								<value xsi:type="xsd:decimal">1433.545598313153</value>
++								<value xsi:type="xsd:decimal">1433.545598313194898464034056911078</value>
+ 							</component>
+ 							<component name="equity36moPct">
+-								<value xsi:type="xsd:decimal">0.1200230251545745</value>
++								<value xsi:type="xsd:decimal">0.1200230251545745307825755713607728</value>
+ 							</component>
+ 						</item>
+ 						<item>
+@@ -1072,7 +1072,7 @@
+ 								<value xsi:type="xsd:string">eRates Mortgage</value>
+ 							</component>
+ 							<component name="rate">
+-								<value xsi:type="xsd:decimal">.03125</value>
++								<value xsi:type="xsd:decimal">0.03125</value>
+ 							</component>
+ 							<component name="points">
+ 								<value xsi:type="xsd:decimal">1.1</value>
+@@ -1087,10 +1087,10 @@
+ 								<value xsi:type="xsd:decimal">67229.6</value>
+ 							</component>
+ 							<component name="paymentAmt">
+-								<value xsi:type="xsd:decimal">1439.975513845245</value>
++								<value xsi:type="xsd:decimal">1439.975513845287239177067537323045</value>
+ 							</component>
+ 							<component name="equity36moPct">
+-								<value xsi:type="xsd:decimal">0.1160760438900096</value>
++								<value xsi:type="xsd:decimal">0.116076043890009231738223301454312</value>
+ 							</component>
+ 						</item>
+ 						<item>
+@@ -1098,7 +1098,7 @@
+ 								<value xsi:type="xsd:string">Home Loans Today</value>
+ 							</component>
+ 							<component name="rate">
+-								<value xsi:type="xsd:decimal">.03250</value>
++								<value xsi:type="xsd:decimal">0.03250</value>
+ 							</component>
+ 							<component name="points">
+ 								<value xsi:type="xsd:decimal">0.1</value>
+@@ -1113,10 +1113,10 @@
+ 								<value xsi:type="xsd:decimal">66230.4</value>
+ 							</component>
+ 							<component name="paymentAmt">
+-								<value xsi:type="xsd:decimal">1441.194429734607</value>
++								<value xsi:type="xsd:decimal">1441.194429734569798816940611550537</value>
+ 							</component>
+ 							<component name="equity36moPct">
+-								<value xsi:type="xsd:decimal">0.1261025270361139</value>
++								<value xsi:type="xsd:decimal">0.126102527036108194734017086504168</value>
+ 							</component>
+ 						</item>
+ 						<item>
+@@ -1124,7 +1124,7 @@
+ 								<value xsi:type="xsd:string">AimLoan</value>
+ 							</component>
+ 							<component name="rate">
+-								<value xsi:type="xsd:decimal">.03250</value>
++								<value xsi:type="xsd:decimal">0.03250</value>
+ 							</component>
+ 							<component name="points">
+ 								<value xsi:type="xsd:decimal">0</value>
+@@ -1139,10 +1139,10 @@
+ 								<value xsi:type="xsd:decimal">66399</value>
+ 							</component>
+ 							<component name="paymentAmt">
+-								<value xsi:type="xsd:decimal">1444.863219004387</value>
++								<value xsi:type="xsd:decimal">1444.863219004349967260442933552328</value>
+ 							</component>
+ 							<component name="equity36moPct">
+-								<value xsi:type="xsd:decimal">0.1238778822515175</value>
++								<value xsi:type="xsd:decimal">0.1238778822515121156167560595555856</value>
+ 							</component>
+ 						</item>
+ 						<item>
+@@ -1150,7 +1150,7 @@
+ 								<value xsi:type="xsd:string">eClick Lending</value>
+ 							</component>
+ 							<component name="rate">
+-								<value xsi:type="xsd:decimal">.03200</value>
++								<value xsi:type="xsd:decimal">0.03200</value>
+ 							</component>
+ 							<component name="points">
+ 								<value xsi:type="xsd:decimal">1.1</value>
+@@ -1165,10 +1165,10 @@
+ 								<value xsi:type="xsd:decimal">67266</value>
+ 							</component>
+ 							<component name="paymentAmt">
+-								<value xsi:type="xsd:decimal">1454.51580776472</value>
++								<value xsi:type="xsd:decimal">1454.515807764692215596585144120557</value>
+ 							</component>
+ 							<component name="equity36moPct">
+-								<value xsi:type="xsd:decimal">0.1137029731874643</value>
++								<value xsi:type="xsd:decimal">0.113702973187458793444684616269924</value>
+ 							</component>
+ 						</item>
+ 						<item>
+@@ -1176,7 +1176,7 @@
+ 								<value xsi:type="xsd:string">eClickLending</value>
+ 							</component>
+ 							<component name="rate">
+-								<value xsi:type="xsd:decimal">.03375</value>
++								<value xsi:type="xsd:decimal">0.03375</value>
+ 							</component>
+ 							<component name="points">
+ 								<value xsi:type="xsd:decimal">0.1</value>
+@@ -1191,10 +1191,10 @@
+ 								<value xsi:type="xsd:decimal">66306</value>
+ 							</component>
+ 							<component name="paymentAmt">
+-								<value xsi:type="xsd:decimal">1465.681565899816</value>
++								<value xsi:type="xsd:decimal">1465.681565899863510819264705552203</value>
+ 							</component>
+ 							<component name="equity36moPct">
+-								<value xsi:type="xsd:decimal">0.1219807467513794</value>
++								<value xsi:type="xsd:decimal">0.1219807467513805938540322263850632</value>
+ 							</component>
+ 						</item>
+ 						<item>
+@@ -1202,7 +1202,7 @@
+ 								<value xsi:type="xsd:string">Oceans Capital</value>
+ 							</component>
+ 							<component name="rate">
+-								<value xsi:type="xsd:decimal">.03500</value>
++								<value xsi:type="xsd:decimal">0.03500</value>
+ 							</component>
+ 							<component name="points">
+ 								<value xsi:type="xsd:decimal">0</value>
+@@ -1217,10 +1217,10 @@
+ 								<value xsi:type="xsd:decimal">66000</value>
+ 							</component>
+ 							<component name="paymentAmt">
+-								<value xsi:type="xsd:decimal">1481.847469769075</value>
++								<value xsi:type="xsd:decimal">1481.84746976912090291141532541092</value>
+ 							</component>
+ 							<component name="equity36moPct">
+-								<value xsi:type="xsd:decimal">0.1229130806675829</value>
++								<value xsi:type="xsd:decimal">0.1229130806675864888391782030891128</value>
+ 							</component>
+ 						</item>
+ 					</list>
+@@ -1232,7 +1232,7 @@
+ 								<value xsi:type="xsd:string">Home Loans Today</value>
+ 							</component>
+ 							<component name="rate">
+-								<value xsi:type="xsd:decimal">.03250</value>
++								<value xsi:type="xsd:decimal">0.03250</value>
+ 							</component>
+ 							<component name="points">
+ 								<value xsi:type="xsd:decimal">0.1</value>
+@@ -1247,10 +1247,10 @@
+ 								<value xsi:type="xsd:decimal">66230.4</value>
+ 							</component>
+ 							<component name="paymentAmt">
+-								<value xsi:type="xsd:decimal">1441.194429734607</value>
++								<value xsi:type="xsd:decimal">1441.194429734569798816940611550537</value>
+ 							</component>
+ 							<component name="equity36moPct">
+-								<value xsi:type="xsd:decimal">0.1261025270361139</value>
++								<value xsi:type="xsd:decimal">0.126102527036108194734017086504168</value>
+ 							</component>
+ 						</item>
+ 						<item>
+@@ -1258,7 +1258,7 @@
+ 								<value xsi:type="xsd:string">AimLoan</value>
+ 							</component>
+ 							<component name="rate">
+-								<value xsi:type="xsd:decimal">.03250</value>
++								<value xsi:type="xsd:decimal">0.03250</value>
+ 							</component>
+ 							<component name="points">
+ 								<value xsi:type="xsd:decimal">0</value>
+@@ -1273,10 +1273,10 @@
+ 								<value xsi:type="xsd:decimal">66399</value>
+ 							</component>
+ 							<component name="paymentAmt">
+-								<value xsi:type="xsd:decimal">1444.863219004387</value>
++								<value xsi:type="xsd:decimal">1444.863219004349967260442933552328</value>
+ 							</component>
+ 							<component name="equity36moPct">
+-								<value xsi:type="xsd:decimal">0.1238778822515175</value>
++								<value xsi:type="xsd:decimal">0.1238778822515121156167560595555856</value>
+ 							</component>
+ 						</item>
+ 						<item>
+@@ -1284,7 +1284,7 @@
+ 								<value xsi:type="xsd:string">Oceans Capital</value>
+ 							</component>
+ 							<component name="rate">
+-								<value xsi:type="xsd:decimal">.03500</value>
++								<value xsi:type="xsd:decimal">0.03500</value>
+ 							</component>
+ 							<component name="points">
+ 								<value xsi:type="xsd:decimal">0</value>
+@@ -1299,10 +1299,10 @@
+ 								<value xsi:type="xsd:decimal">66000</value>
+ 							</component>
+ 							<component name="paymentAmt">
+-								<value xsi:type="xsd:decimal">1481.847469769075</value>
++								<value xsi:type="xsd:decimal">1481.84746976912090291141532541092</value>
+ 							</component>
+ 							<component name="equity36moPct">
+-								<value xsi:type="xsd:decimal">0.1229130806675829</value>
++								<value xsi:type="xsd:decimal">0.1229130806675864888391782030891128</value>
+ 							</component>
+ 						</item>
+ 						<item>
+@@ -1310,7 +1310,7 @@
+ 								<value xsi:type="xsd:string">eClickLending</value>
+ 							</component>
+ 							<component name="rate">
+-								<value xsi:type="xsd:decimal">.03375</value>
++								<value xsi:type="xsd:decimal">0.03375</value>
+ 							</component>
+ 							<component name="points">
+ 								<value xsi:type="xsd:decimal">0.1</value>
+@@ -1325,10 +1325,10 @@
+ 								<value xsi:type="xsd:decimal">66306</value>
+ 							</component>
+ 							<component name="paymentAmt">
+-								<value xsi:type="xsd:decimal">1465.681565899816</value>
++								<value xsi:type="xsd:decimal">1465.681565899863510819264705552203</value>
+ 							</component>
+ 							<component name="equity36moPct">
+-								<value xsi:type="xsd:decimal">0.1219807467513794</value>
++								<value xsi:type="xsd:decimal">0.1219807467513805938540322263850632</value>
+ 							</component>
+ 						</item>
+ 						<item>
+@@ -1336,7 +1336,7 @@
+ 								<value xsi:type="xsd:string">Home Loans Today</value>
+ 							</component>
+ 							<component name="rate">
+-								<value xsi:type="xsd:decimal">.03125</value>
++								<value xsi:type="xsd:decimal">0.03125</value>
+ 							</component>
+ 							<component name="points">
+ 								<value xsi:type="xsd:decimal">1.1</value>
+@@ -1351,10 +1351,10 @@
+ 								<value xsi:type="xsd:decimal">66783</value>
+ 							</component>
+ 							<component name="paymentAmt">
+-								<value xsi:type="xsd:decimal">1430.409890005697</value>
++								<value xsi:type="xsd:decimal">1430.409890005738806923767229688187</value>
+ 							</component>
+ 							<component name="equity36moPct">
+-								<value xsi:type="xsd:decimal">0.1219478687825963</value>
++								<value xsi:type="xsd:decimal">0.1219478687825970483711604225076944</value>
+ 							</component>
+ 						</item>
+ 						<item>
+@@ -1362,7 +1362,7 @@
+ 								<value xsi:type="xsd:string">Sebonic</value>
+ 							</component>
+ 							<component name="rate">
+-								<value xsi:type="xsd:decimal">.03125</value>
++								<value xsi:type="xsd:decimal">0.03125</value>
+ 							</component>
+ 							<component name="points">
+ 								<value xsi:type="xsd:decimal">0.1</value>
+@@ -1377,10 +1377,10 @@
+ 								<value xsi:type="xsd:decimal">66871.6</value>
+ 							</component>
+ 							<component name="paymentAmt">
+-								<value xsi:type="xsd:decimal">1432.307593257341</value>
++								<value xsi:type="xsd:decimal">1432.3075932573823158750489297698</value>
+ 							</component>
+ 							<component name="equity36moPct">
+-								<value xsi:type="xsd:decimal">0.1207829702481527</value>
++								<value xsi:type="xsd:decimal">0.1207829702481517269343529237944616</value>
+ 							</component>
+ 						</item>
+ 						<item>
+@@ -1388,7 +1388,7 @@
+ 								<value xsi:type="xsd:string">AimLoan</value>
+ 							</component>
+ 							<component name="rate">
+-								<value xsi:type="xsd:decimal">.03125</value>
++								<value xsi:type="xsd:decimal">0.03125</value>
+ 							</component>
+ 							<component name="points">
+ 								<value xsi:type="xsd:decimal">0.1</value>
+@@ -1403,10 +1403,10 @@
+ 								<value xsi:type="xsd:decimal">66929.4</value>
+ 							</component>
+ 							<component name="paymentAmt">
+-								<value xsi:type="xsd:decimal">1433.545598313153</value>
++								<value xsi:type="xsd:decimal">1433.545598313194898464034056911078</value>
+ 							</component>
+ 							<component name="equity36moPct">
+-								<value xsi:type="xsd:decimal">0.1200230251545745</value>
++								<value xsi:type="xsd:decimal">0.1200230251545745307825755713607728</value>
+ 							</component>
+ 						</item>
+ 						<item>
+@@ -1414,7 +1414,7 @@
+ 								<value xsi:type="xsd:string">eRates Mortgage</value>
+ 							</component>
+ 							<component name="rate">
+-								<value xsi:type="xsd:decimal">.03125</value>
++								<value xsi:type="xsd:decimal">0.03125</value>
+ 							</component>
+ 							<component name="points">
+ 								<value xsi:type="xsd:decimal">1.1</value>
+@@ -1429,10 +1429,10 @@
+ 								<value xsi:type="xsd:decimal">67229.6</value>
+ 							</component>
+ 							<component name="paymentAmt">
+-								<value xsi:type="xsd:decimal">1439.975513845245</value>
++								<value xsi:type="xsd:decimal">1439.975513845287239177067537323045</value>
+ 							</component>
+ 							<component name="equity36moPct">
+-								<value xsi:type="xsd:decimal">0.1160760438900096</value>
++								<value xsi:type="xsd:decimal">0.116076043890009231738223301454312</value>
+ 							</component>
+ 						</item>
+ 						<item>
+@@ -1440,7 +1440,7 @@
+ 								<value xsi:type="xsd:string">AimLoan</value>
+ 							</component>
+ 							<component name="rate">
+-								<value xsi:type="xsd:decimal">.03000</value>
++								<value xsi:type="xsd:decimal">0.03000</value>
+ 							</component>
+ 							<component name="points">
+ 								<value xsi:type="xsd:decimal">1.1</value>
+@@ -1455,10 +1455,10 @@
+ 								<value xsi:type="xsd:decimal">67519.2</value>
+ 							</component>
+ 							<component name="paymentAmt">
+-								<value xsi:type="xsd:decimal">1423.318353709273</value>
++								<value xsi:type="xsd:decimal">1423.31835370927550454489017290607</value>
+ 							</component>
+ 							<component name="equity36moPct">
+-								<value xsi:type="xsd:decimal">0.1154298007315222</value>
++								<value xsi:type="xsd:decimal">0.1154298007315239099518616327317256</value>
+ 							</component>
+ 						</item>
+ 						<item>
+@@ -1466,7 +1466,7 @@
+ 								<value xsi:type="xsd:string">eClick Lending</value>
+ 							</component>
+ 							<component name="rate">
+-								<value xsi:type="xsd:decimal">.03200</value>
++								<value xsi:type="xsd:decimal">0.03200</value>
+ 							</component>
+ 							<component name="points">
+ 								<value xsi:type="xsd:decimal">1.1</value>
+@@ -1481,10 +1481,10 @@
+ 								<value xsi:type="xsd:decimal">67266</value>
+ 							</component>
+ 							<component name="paymentAmt">
+-								<value xsi:type="xsd:decimal">1454.51580776472</value>
++								<value xsi:type="xsd:decimal">1454.515807764692215596585144120557</value>
+ 							</component>
+ 							<component name="equity36moPct">
+-								<value xsi:type="xsd:decimal">0.1137029731874643</value>
++								<value xsi:type="xsd:decimal">0.113702973187458793444684616269924</value>
+ 							</component>
+ 						</item>
+ 					</list>

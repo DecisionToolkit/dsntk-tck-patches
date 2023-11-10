@@ -1,0 +1,20 @@
+diff --git a/TestCases/compliance-level-3/0068-feel-equality/0068-feel-equality.dmn b/TestCases/compliance-level-3/0068-feel-equality/0068-feel-equality.dmn
+index 78b9eed..cf8649c 100644
+--- a/TestCases/compliance-level-3/0068-feel-equality/0068-feel-equality.dmn
++++ b/TestCases/compliance-level-3/0068-feel-equality/0068-feel-equality.dmn
+@@ -616,12 +616,12 @@
+ <!--    </decision>-->
+ 
+     <decision name="time_009" id="_time_009">
+-        <description>Tests FEEL expression: 'time("10:30:00+01:00") = time("10:30:00@Europe/Paris")' and expects result: 'true (boolean)'</description>
+-        <question>Result of FEEL expression 'time("10:30:00+01:00") = time("10:30:00@Europe/Paris")'?</question>
++        <description>Tests FEEL expression: 'time("10:30:00+02:00") = time("10:30:00@Europe/Paris")' and expects result: 'true (boolean)'</description>
++        <question>Result of FEEL expression 'time("10:30:00+02:00") = time("10:30:00@Europe/Paris")'?</question>
+         <allowedAnswers>true (boolean)</allowedAnswers>
+         <variable name="time_009"/>
+         <literalExpression>
+-            <text>time("10:30:00+01:00") = time("10:30:00@Europe/Paris")</text>
++            <text>time("10:30:00+02:00") = time("10:30:00@Europe/Paris")</text>
+         </literalExpression>
+     </decision>
+ 

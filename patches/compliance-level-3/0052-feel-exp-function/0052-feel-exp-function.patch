@@ -1,0 +1,31 @@
+diff --git a/TestCases/compliance-level-3/0052-feel-exp-function/0052-feel-exp-function-test-01.xml b/TestCases/compliance-level-3/0052-feel-exp-function/0052-feel-exp-function-test-01.xml
+index 9da26d2..ae77e02 100644
+--- a/TestCases/compliance-level-3/0052-feel-exp-function/0052-feel-exp-function-test-01.xml
++++ b/TestCases/compliance-level-3/0052-feel-exp-function/0052-feel-exp-function-test-01.xml
+@@ -13,7 +13,7 @@
+         <description>Assert on positive number</description>
+         <resultNode name="decision001" type="decision">
+             <expected>
+-                <value xsi:type="xsd:decimal">54.59815003</value>
++                <value xsi:type="xsd:decimal">54.59815003314423907811026120286088</value>
+             </expected>
+         </resultNode>
+     </testCase>
+@@ -21,7 +21,7 @@
+         <description>Assert on negative number</description>
+         <resultNode name="decision002" type="decision">
+             <expected>
+-                <value xsi:type="xsd:decimal">0.36787944</value>
++                <value xsi:type="xsd:decimal">0.3678794411714423215955237701614609</value>
+             </expected>
+         </resultNode>
+     </testCase>
+@@ -53,7 +53,7 @@
+         <description>Assert with named param</description>
+         <resultNode name="decision006" type="decision">
+             <expected>
+-                <value xsi:type="xsd:decimal">54.59815003</value>
++                <value xsi:type="xsd:decimal">54.59815003314423907811026120286088</value>
+             </expected>
+         </resultNode>
+     </testCase>

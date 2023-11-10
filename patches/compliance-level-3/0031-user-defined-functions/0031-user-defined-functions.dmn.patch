@@ -1,0 +1,27 @@
+diff --git a/TestCases/compliance-level-3/0031-user-defined-functions/0031-user-defined-functions.dmn b/TestCases/compliance-level-3/0031-user-defined-functions/0031-user-defined-functions.dmn
+index 150c9e8..1cbccf1 100644
+--- a/TestCases/compliance-level-3/0031-user-defined-functions/0031-user-defined-functions.dmn
++++ b/TestCases/compliance-level-3/0031-user-defined-functions/0031-user-defined-functions.dmn
+@@ -1,10 +1,18 @@
+ <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+ <definitions namespace="http://www.actico.com/spec/DMN/0.1.0/0031-user-defined-functions" name="0030-user-defined-functions" id="_pKGjoH6LEeePe9Zmt-encA" xmlns="https://www.omg.org/spec/DMN/20211108/MODEL/" xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/" xmlns:dmndi="https://www.omg.org/spec/DMN/20191111/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" xmlns:triso="http://www.trisotech.com/2015/triso/modeling" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+     <itemDefinition name="tFnLibrary" id="_fKdL0IDJEee-MeWXoLgrYg">
+-        <itemComponent name="sumFn" id="_gtkkYIDJEee-MeWXoLgrYg"/>
+-        <itemComponent name="subFn" id="_pRj-sIDJEee-MeWXoLgrYg"/>
+-        <itemComponent name="multiplyFn" id="_l_GGYIDfEee-MeWXoLgrYg"/>
+-        <itemComponent name="divideFn" id="_pOrn0IDfEee-MeWXoLgrYg"/>
++        <itemComponent name="sumFn" id="_gtkkYIDJEee-MeWXoLgrYg">
++            <typeRef>Any</typeRef>
++        </itemComponent>
++        <itemComponent name="subFn" id="_pRj-sIDJEee-MeWXoLgrYg">
++            <typeRef>Any</typeRef>
++        </itemComponent>
++        <itemComponent name="multiplyFn" id="_l_GGYIDfEee-MeWXoLgrYg">
++            <typeRef>Any</typeRef>
++        </itemComponent>
++        <itemComponent name="divideFn" id="_pOrn0IDfEee-MeWXoLgrYg">
++            <typeRef>Any</typeRef>
++        </itemComponent>
+     </itemDefinition>
+     <itemDefinition name="tFnInvocationPositionalResult" id="_xuQ0YIJtEee4zOLdFxCBaA">
+         <itemComponent name="sumResult" id="_GDzKIIJuEee4zOLdFxCBaA">

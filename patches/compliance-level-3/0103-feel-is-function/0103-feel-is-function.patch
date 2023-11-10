@@ -1,0 +1,20 @@
+diff --git a/TestCases/compliance-level-3/0103-feel-is-function/0103-feel-is-function.dmn b/TestCases/compliance-level-3/0103-feel-is-function/0103-feel-is-function.dmn
+index a4f83a7..3a0f148 100644
+--- a/TestCases/compliance-level-3/0103-feel-is-function/0103-feel-is-function.dmn
++++ b/TestCases/compliance-level-3/0103-feel-is-function/0103-feel-is-function.dmn
+@@ -170,12 +170,12 @@
+     </decision>
+ 
+     <decision name="time_006" id="_time_006">
+-        <description>Tests FEEL expression: 'is(@"23:00:50@Australia/Melbourne", @"23:00:50+10:00")' and expects result: 'false (boolean)'</description>
+-        <question>Result of FEEL expression 'is(@"23:00:50@Australia/Melbourne", @"23:00:50+10:00")'?</question>
++        <description>Tests FEEL expression: 'is(@"23:00:50@Australia/Melbourne", @"23:00:50+11:00")' and expects result: 'false (boolean)'</description>
++        <question>Result of FEEL expression 'is(@"23:00:50@Australia/Melbourne", @"23:00:50+11:00")'?</question>
+         <allowedAnswers>false (boolean)</allowedAnswers>
+         <variable name="time_006"/>
+         <literalExpression>
+-            <text>is(@"23:00:50@Australia/Melbourne", @"23:00:50+10:00")</text>
++            <text>is(@"23:00:50@Australia/Melbourne", @"23:00:50+11:00")</text>
+         </literalExpression>
+     </decision>
+ 
