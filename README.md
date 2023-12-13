@@ -21,7 +21,7 @@ There is a detailed description for each patch provided, explaining why this pat
 
 ## Applying patches
 
-There is a dedicated [script](apply-patches.sh) named `apply-patches.sh`,
+There is a dedicated [script](apply-patches.sh) named `apply-patches.sh`
 prepared for applying patches to the original TCK repository.
 
 To apply all patches, clone a fresh copy of TCK master branch, for example to **~/Temp** directory:
@@ -39,7 +39,7 @@ $ ./apply-patches ~/Temp/tck
 
 ## Removing patches
 
-There is also a dedicated [script](remove-patches.sh) named `remove-patches.sh`,
+There is also a dedicated [script](remove-patches.sh) named `remove-patches.sh`
 prepared for removing patches from the original TCK repository.
 
 Assuming that the TCK repository with applied patches is placed in **~/Temp** directory,
