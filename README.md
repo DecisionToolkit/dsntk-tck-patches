@@ -23,7 +23,6 @@ There is a detailed description for each patch provided with an explanation why 
 
 There is a dedicated [script](apply-patches.sh) named `apply-patches.sh`
 prepared for applying patches to the original [TCK](https://github.com/dmn-tck/tck) repository.
-
 To apply all patches, clone a fresh copy of TCK [master](https://github.com/dmn-tck/tck/tree/master) branch,
 for example to `~/Temp` directory:
 
@@ -43,7 +42,6 @@ $ ./apply-patches ~/Temp/tck
 
 There is also a dedicated [script](remove-patches.sh) named `remove-patches.sh`
 prepared for removing patches from the original [TCK](https://github.com/dmn-tck/tck) repository.
-
 Assuming that the [TCK](https://github.com/dmn-tck/tck) repository with applied patches
 is placed in `~/Temp` directory, then to remove all the patches,
 run [remove-patches.sh](remove-patches.sh) script like this:
