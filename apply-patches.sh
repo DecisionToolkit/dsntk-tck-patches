@@ -12,12 +12,18 @@ git restore .
 
 ###############################################################################
 
-# compliance level 2
+# ┌────────────────────────────────────────┐
+# │ Compliance level 2 patches             │
+# └────────────────────────────────────────┘
+
 git apply "$WORK_DIR/patches/compliance-level-2/0008-LX-arithmetic/0008-LX-arithmetic.patch"
 
 git apply "$WORK_DIR/patches/compliance-level-2/0009-invocation-arithmetic/0009-invocation-arithmetic.patch"
 
-# compliance level 3
+# ┌────────────────────────────────────────┐
+# │ Compliance level 3 patches             │
+# └────────────────────────────────────────┘
+
 git apply "$WORK_DIR/patches/compliance-level-3/0003-iteration/0003-iteration.patch"
 
 git apply "$WORK_DIR/patches/compliance-level-3/0004-lending/0004-lending.patch"
