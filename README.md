@@ -15,23 +15,25 @@
 
 ## Overview
 
-This is an opinionated set of patches to the original TCK test cases.
+This is an opinionated set of patches to the original [TCK](https://github.com/dmn-tck/tck) test cases.
 The rule of thumb is, that none of these patches should change the meaning of the test.
-There is a detailed description for each patch provided, explaining why this patch is applied.
+There is a detailed description for each patch provided with an explanation why this patch should be applied.
 
 ## Applying patches
 
 There is a dedicated [script](apply-patches.sh) named `apply-patches.sh`
-prepared for applying patches to the original TCK repository.
+prepared for applying patches to the original [TCK](https://github.com/dmn-tck/tck) repository.
 
-To apply all patches, clone a fresh copy of TCK master branch, for example to **~/Temp** directory:
+To apply all patches, clone a fresh copy of TCK [master](https://github.com/dmn-tck/tck/tree/master) branch,
+for example to `~/Temp` directory:
 
 ```shell
 $ cd ~/Temp
 $ git clone https://github.com/dmn-tck/tck.git tck
 ```
 
-After cloning the TCK master branch, run [apply-patches.sh](apply-patches.sh) script like this:
+After cloning the TCK [master](https://github.com/dmn-tck/tck/tree/master) branch,
+run [apply-patches.sh](apply-patches.sh) script like this:
 
 ```shell
 $ ./apply-patches ~/Temp/tck
@@ -40,10 +42,11 @@ $ ./apply-patches ~/Temp/tck
 ## Removing patches
 
 There is also a dedicated [script](remove-patches.sh) named `remove-patches.sh`
-prepared for removing patches from the original TCK repository.
+prepared for removing patches from the original [TCK](https://github.com/dmn-tck/tck) repository.
 
-Assuming that the TCK repository with applied patches is placed in **~/Temp** directory,
-then to remove all the patches, run [remove-patches.sh](remove-patches.sh) script like this:
+Assuming that the [TCK](https://github.com/dmn-tck/tck) repository with applied patches
+is placed in `~/Temp` directory, then to remove all the patches,
+run [remove-patches.sh](remove-patches.sh) script like this:
 
 ```shell
 $ ./remove-patches ~/Temp/tck
