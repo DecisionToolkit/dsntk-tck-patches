@@ -1,6 +1,10 @@
 #!/usr/bin/env bash
- 
+
+# current working directory
 WORK_DIR=$(pwd)
+
+# time offset between UTC and the local time
+OFFSET=$(date +%z)
 
 cd "$1" || exit 1
 
@@ -39,7 +43,9 @@ git apply "$WORK_DIR/patches/compliance-level-3/0053-feel-log-function/0053-feel
 
 git apply "$WORK_DIR/patches/compliance-level-3/0063-feel-stddev-function/0063-feel-stddev-function.patch"
 
-git apply "$WORK_DIR/patches/compliance-level-3/0068-feel-equality/0068-feel-equality.patch"
+if [ "$OFFSET" == "+0200" ]; then
+   git apply "$WORK_DIR/patches/compliance-level-3/0068-feel-equality/0068-feel-equality.patch"
+fi
 
 git apply "$WORK_DIR/patches/compliance-level-3/0076-feel-external-java/0076-feel-external-java.patch"
 
