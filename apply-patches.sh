@@ -50,7 +50,7 @@ git apply "$WORK_DIR/patches/compliance-level-3/0053-feel-log-function/0053-feel
 git apply "$WORK_DIR/patches/compliance-level-3/0063-feel-stddev-function/0063-feel-stddev-function.patch"
 
 if [ "$OFFSET" == "+0200" ]; then
-   git apply "$WORK_DIR/patches/compliance-level-3/0068-feel-equality/0068-feel-equality.patch"
+  git apply "$WORK_DIR/patches/compliance-level-3/0068-feel-equality/0068-feel-equality.patch"
 fi
 
 git apply "$WORK_DIR/patches/compliance-level-3/0076-feel-external-java/0076-feel-external-java.patch"
@@ -63,7 +63,9 @@ git apply "$WORK_DIR/patches/compliance-level-3/0092-feel-lambda/0092-feel-lambd
 
 git apply "$WORK_DIR/patches/compliance-level-3/0100-arithmetic/0100-arithmetic.patch"
 
-git apply "$WORK_DIR/patches/compliance-level-3/0103-feel-is-function/0103-feel-is-function.patch"
+if [ "$OFFSET" == "+0200" ]; then
+  git apply "$WORK_DIR/patches/compliance-level-3/0103-feel-is-function/0103-feel-is-function.patch"
+fi
 
 git apply "$WORK_DIR/patches/compliance-level-3/1120-feel-duration-function/1120-feel-duration-function.patch"
 
