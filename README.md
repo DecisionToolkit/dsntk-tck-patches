@@ -15,22 +15,23 @@
 
 ## Overview
 
-This is an opinionated set of patches to original TCK test cases.
-The rule of thumb is, that none of these patches should change the meaning of the test
-or the resulting value. There is a detailed explanation for each patch provided.
+This is an opinionated set of patches to the original TCK test cases.
+The rule of thumb is, that none of these patches should change the meaning of the test.
+There is a detailed description for each patch provided, explaining why this patch is applied.
 
 ## Applying patches
 
-There is a dedicated [script](apply-patches.sh) prepared for applying patches to TCK repository.
+There is a dedicated [script](apply-patches.sh) named `apply-patches.sh`,
+prepared for applying patches to the original TCK repository.
 
-To apply patches, clone a fresh copy of TCK master branch, for example in **~/Temp** directory:
+To apply all patches, clone a fresh copy of TCK master branch, for example to **~/Temp** directory:
 
 ```shell
 $ cd ~/Temp
 $ git clone https://github.com/dmn-tck/tck.git tck
 ```
 
-After cloning TCK master branch, run this [script](apply-patches.sh):
+After cloning the TCK master branch, run [apply-patches.sh](apply-patches.sh) script like this:
 
 ```shell
 $ ./apply-patches ~/Temp/tck
@@ -38,10 +39,11 @@ $ ./apply-patches ~/Temp/tck
 
 ## Removing patches
 
-There is also a dedicated [script](remove-patches.sh) prepared for removing patches from original TCK repository.
+There is also a dedicated [script](remove-patches.sh) named `remove-patches.sh`,
+prepared for removing patches from the original TCK repository.
 
-Assuming that the TCK repository with applied patches is in **~/Temp** directory,
-then to remove all patches, run this [script](remove-patches.sh):
+Assuming that the TCK repository with applied patches is placed in **~/Temp** directory,
+then to remove all the patches, run [remove-patches.sh](remove-patches.sh) script like this:
 
 ```shell
 $ ./remove-patches ~/Temp/tck
