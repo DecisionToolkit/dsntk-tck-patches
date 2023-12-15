@@ -1,4 +1,4 @@
-**DMNTK** | Decision Model and Notation Toolkit
+**DSNTK** | Decision Toolkit
 
 # 0014-loan-comparison
 

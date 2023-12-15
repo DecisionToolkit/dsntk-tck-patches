@@ -69,6 +69,8 @@ fi
 
 git apply "$WORK_DIR/patches/compliance-level-3/1120-feel-duration-function/1120-feel-duration-function.patch"
 
+git apply "$WORK_DIR/patches/compliance-level-3/1146-feel-context-put-function/1146-feel-context-put-function.patch"
+
 # non compliant
 git apply "$WORK_DIR/patches/non-compliant/0015-all-any/0015-all-any.patch"
 

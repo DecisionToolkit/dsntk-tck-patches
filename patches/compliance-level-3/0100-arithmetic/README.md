@@ -1,4 +1,4 @@
-**DMNTK** | Decision Model and Notation Toolkit
+**DSNTK** | Decision Toolkit
 
 # 0100-arithmetic
 
