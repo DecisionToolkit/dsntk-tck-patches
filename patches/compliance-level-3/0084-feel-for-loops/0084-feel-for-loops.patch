@@ -1,0 +1,27 @@
+diff --git a/TestCases/compliance-level-3/0084-feel-for-loops/0084-feel-for-loops-test-01.xml b/TestCases/compliance-level-3/0084-feel-for-loops/0084-feel-for-loops-test-01.xml
+index f5e27f6..44bf237 100644
+--- a/TestCases/compliance-level-3/0084-feel-for-loops/0084-feel-for-loops-test-01.xml
++++ b/TestCases/compliance-level-3/0084-feel-for-loops/0084-feel-for-loops-test-01.xml
+@@ -161,10 +161,18 @@
+         <resultNode name="decision_015" type="decision">
+             <expected>
+                 <list>
+-                    <item><value xsi:type="xsd:decimal">1</value></item>
+-                    <item><value xsi:type="xsd:decimal">2</value></item>
+-                    <item><value xsi:type="xsd:decimal">3</value></item>
+-                    <item><value xsi:type="xsd:decimal">4</value></item>
++                    <item>
++                        <list>
++                            <item><value xsi:type="xsd:decimal">1</value></item>
++                            <item><value xsi:type="xsd:decimal">2</value></item>
++                        </list>
++                    </item>
++                    <item>
++                        <list>
++                            <item><value xsi:type="xsd:decimal">3</value></item>
++                            <item><value xsi:type="xsd:decimal">4</value></item>
++                        </list>
++                    </item>
+                 </list>
+             </expected>
+         </resultNode>
