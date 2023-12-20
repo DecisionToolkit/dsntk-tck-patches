@@ -55,6 +55,8 @@ fi
 
 git apply "$WORK_DIR/patches/compliance-level-3/0076-feel-external-java/0076-feel-external-java.patch"
 
+git apply "$WORK_DIR/patches/compliance-level-3/0084-feel-for-loops/0084-feel-for-loops.patch"
+
 git apply "$WORK_DIR/patches/compliance-level-3/0087-chapter-11-example/0087-chapter-11-example.patch"
 
 git apply "$WORK_DIR/patches/compliance-level-3/0089-nested-inputdata-imports/0089-nested-inputdata-imports.patch"
