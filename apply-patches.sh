@@ -10,7 +10,7 @@ cd "$1" || exit 1
 
 git restore .
 
-###############################################################################
+########################################################################################################################
 
 # ┌────────────────────────────────────────┐
 # │ Compliance level 2 patches             │
@@ -55,8 +55,6 @@ fi
 
 git apply "$WORK_DIR/patches/compliance-level-3/0076-feel-external-java/0076-feel-external-java.patch"
 
-git apply "$WORK_DIR/patches/compliance-level-3/0084-feel-for-loops/0084-feel-for-loops.patch"
-
 git apply "$WORK_DIR/patches/compliance-level-3/0087-chapter-11-example/0087-chapter-11-example.patch"
 
 git apply "$WORK_DIR/patches/compliance-level-3/0089-nested-inputdata-imports/0089-nested-inputdata-imports.patch"
@@ -71,16 +69,17 @@ fi
 
 git apply "$WORK_DIR/patches/compliance-level-3/1120-feel-duration-function/1120-feel-duration-function.patch"
 
-git apply "$WORK_DIR/patches/compliance-level-3/1146-feel-context-put-function/1146-feel-context-put-function.patch"
+# ┌────────────────────────────────────────┐
+# │ Non compliant patches                  │
+# └────────────────────────────────────────┘
 
-# non compliant
 git apply "$WORK_DIR/patches/non-compliant/0015-all-any/0015-all-any.patch"
 
 git apply "$WORK_DIR/patches/non-compliant/0019-flight-rebooking/0019-flight-rebooking.patch"
 
 git apply "$WORK_DIR/patches/non-compliant/0088-recursion/0088-recursion.patch"
 
-###############################################################################
+########################################################################################################################
 
 git status
 
