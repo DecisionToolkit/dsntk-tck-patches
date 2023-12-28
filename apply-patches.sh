@@ -69,6 +69,14 @@ fi
 
 git apply "$WORK_DIR/patches/compliance-level-3/1120-feel-duration-function/1120-feel-duration-function.patch"
 
+git apply "$WORK_DIR/patches/compliance-level-3/1141-feel-round-up-function/1141-feel-round-up-function.patch"
+
+git apply "$WORK_DIR/patches/compliance-level-3/1142-feel-round-down-function/1142-feel-round-down-function.patch"
+
+git apply "$WORK_DIR/patches/compliance-level-3/1143-feel-round-half-up-function/1143-feel-round-half-up-function.patch"
+
+git apply "$WORK_DIR/patches/compliance-level-3/1144-feel-round-half-down-function/1144-feel-round-half-down-function.patch"
+
 # ┌────────────────────────────────────────┐
 # │ Non compliant patches                  │
 # └────────────────────────────────────────┘

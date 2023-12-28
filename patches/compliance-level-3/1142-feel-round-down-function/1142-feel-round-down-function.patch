@@ -1,0 +1,13 @@
+diff --git a/TestCases/compliance-level-3/1142-feel-round-down-function/1142-feel-round-down-function.dmn b/TestCases/compliance-level-3/1142-feel-round-down-function/1142-feel-round-down-function.dmn
+index 2c6fd20..74a48be 100644
+--- a/TestCases/compliance-level-3/1142-feel-round-down-function/1142-feel-round-down-function.dmn
++++ b/TestCases/compliance-level-3/1142-feel-round-down-function/1142-feel-round-down-function.dmn
+@@ -149,7 +149,7 @@
+     <decision name="decision017_a" id="_decision017_a">
+         <variable name="decision017_a"/>
+         <literalExpression>
+-            <text>round down(5.5, 6176)</text>
++            <text>round down(5.5, 6144)</text>
+         </literalExpression>
+     </decision>
+ 

@@ -1,0 +1,13 @@
+diff --git a/TestCases/compliance-level-3/1141-feel-round-up-function/1141-feel-round-up-function.dmn b/TestCases/compliance-level-3/1141-feel-round-up-function/1141-feel-round-up-function.dmn
+index 54e154f..a741a61 100644
+--- a/TestCases/compliance-level-3/1141-feel-round-up-function/1141-feel-round-up-function.dmn
++++ b/TestCases/compliance-level-3/1141-feel-round-up-function/1141-feel-round-up-function.dmn
+@@ -148,7 +148,7 @@
+     <decision name="decision017_a" id="_decision017_a">
+         <variable name="decision017_a"/>
+         <literalExpression>
+-            <text>round up(5.5, 6176)</text>
++            <text>round up(5.5, 6144)</text>
+         </literalExpression>
+     </decision>
+ 

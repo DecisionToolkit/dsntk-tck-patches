@@ -1,0 +1,13 @@
+diff --git a/TestCases/compliance-level-3/1143-feel-round-half-up-function/1143-feel-round-half-up-function.dmn b/TestCases/compliance-level-3/1143-feel-round-half-up-function/1143-feel-round-half-up-function.dmn
+index 09d7906..890d297 100644
+--- a/TestCases/compliance-level-3/1143-feel-round-half-up-function/1143-feel-round-half-up-function.dmn
++++ b/TestCases/compliance-level-3/1143-feel-round-half-up-function/1143-feel-round-half-up-function.dmn
+@@ -150,7 +150,7 @@
+     <decision name="decision017_a" id="_decision017_a">
+         <variable name="decision017_a"/>
+         <literalExpression>
+-            <text>round half up(5.5, 6176)</text>
++            <text>round half up(5.5, 6144)</text>
+         </literalExpression>
+     </decision>
+ 
