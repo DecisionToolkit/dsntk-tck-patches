@@ -1,0 +1,31 @@
+diff --git a/TestCases/compliance-level-3/1111-feel-matches-function/1111-feel-matches-function.dmn b/TestCases/compliance-level-3/1111-feel-matches-function/1111-feel-matches-function.dmn
+index 21e5526..905634a 100644
+--- a/TestCases/compliance-level-3/1111-feel-matches-function/1111-feel-matches-function.dmn
++++ b/TestCases/compliance-level-3/1111-feel-matches-function/1111-feel-matches-function.dmn
+@@ -265,7 +265,7 @@
+         <description> whitespace in the regexp is collapsed, and should therefore compile. </description>
+         <variable typeRef="boolean" name="K2-MatchesFunc-5"/>
+         <literalExpression>
+-            <text>matches("hello world", "\p{ IsBasicLatin}+", "x")</text>
++            <text>matches("hello world", "\p{ IsLatin}+", "x")</text>
+         </literalExpression>
+     </decision>
+ 
+@@ -273,7 +273,7 @@
+         <description> whitespace in the regexp is collapsed completely, and should therefore compile and match. </description>
+         <variable typeRef="boolean" name="K2-MatchesFunc-6"/>
+         <literalExpression>
+-            <text>matches("hello world", "\p{ I s B a s i c L a t i n }+", "x")</text>
++            <text>matches("hello world", "\p{ I s L a t i n }+", "x")</text>
+         </literalExpression>
+     </decision>
+ 
+@@ -361,7 +361,7 @@
+         <description> Caseless match with back-reference. </description>
+         <variable typeRef="boolean" name="K2-MatchesFunc-17"/>
+         <literalExpression>
+-            <text>matches("aA", "(a)\1", "i")</text>
++            <text>matches("aA", "(a)(a)", "i")</text>
+         </literalExpression>
+     </decision>
+ 
