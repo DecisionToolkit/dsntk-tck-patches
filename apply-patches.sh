@@ -4,7 +4,8 @@
 WORK_DIR=$(pwd)
 
 # time offset between UTC and the local time
-OFFSET=$(date +%z)
+OFFSET_PARIS=$(TZ=Europe/Paris date +%z)
+OFFSET_MELBOURNE=$(TZ=Australia/Melbourne date +%z)
 
 cd "$1" || exit 1
 
@@ -49,7 +50,7 @@ git apply "$WORK_DIR/patches/compliance-level-3/0053-feel-log-function/0053-feel
 
 git apply "$WORK_DIR/patches/compliance-level-3/0063-feel-stddev-function/0063-feel-stddev-function.patch"
 
-if [ "$OFFSET" == "+0200" ]; then
+if [ "$OFFSET_PARIS" == "+0200" ]; then
   git apply "$WORK_DIR/patches/compliance-level-3/0068-feel-equality/0068-feel-equality.patch"
 fi
 
@@ -63,7 +64,7 @@ git apply "$WORK_DIR/patches/compliance-level-3/0092-feel-lambda/0092-feel-lambd
 
 git apply "$WORK_DIR/patches/compliance-level-3/0100-arithmetic/0100-arithmetic.patch"
 
-if [ "$OFFSET" == "+0200" ]; then
+if [ "$OFFSET_MELBOURNE" == "+1000" ]; then
   git apply "$WORK_DIR/patches/compliance-level-3/0103-feel-is-function/0103-feel-is-function.patch"
 fi
 
