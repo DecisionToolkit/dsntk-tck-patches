@@ -4,7 +4,7 @@
 
 [![MIT licensed][mit-badge]][mit-url]
 [![Apache 2.0 licensed][apache-badge]][apache-url]
-[![Contributor Covenant][coc-badge]][coc-url]
+[![Contributor Covenant][cc-badge]][cc-url]
 
 [mit-badge]: https://img.shields.io/badge/License-MIT-blue.svg
 [mit-url]: https://opensource.org/licenses/MIT
@@ -13,8 +13,8 @@
 [apache-url]: https://www.apache.org/licenses/LICENSE-2.0
 [apache-license-url]: LICENSE
 [apache-notice-url]: NOTICE
-[coc-badge]: https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg
-[coc-url]: https://github.com/dsntk/dsntk-tck-patches/blob/main/CODE_OF_CONDUCT.md
+[cc-badge]: https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg
+[cc-url]: https://github.com/DecisionToolkit/dsntk-tck-patches/blob/main/CODE_OF_CONDUCT.md
 
 ## Overview
 
@@ -24,33 +24,33 @@ There is a detailed description for each patch provided with an explanation why 
 
 ## Applying patches
 
-There is a dedicated [script](apply-patches.sh) named `apply-patches.sh`
-prepared for applying patches to the original [TCK](https://github.com/dmn-tck/tck) repository.
+There is a dedicated script [apply-patches.sh](apply-patches.sh) prepared for applying patches
+to the original [TCK](https://github.com/dmn-tck/tck) repository.
 To apply all patches, clone a fresh copy of TCK [master](https://github.com/dmn-tck/tck/tree/master) branch,
-for example to `~/Temp` directory:
+to e.g. `~/temp` directory:
 
 ```shell
-$ cd ~/Temp
+$ cd ~/temp
 $ git clone https://github.com/dmn-tck/tck.git tck
 ```
 
 After cloning the TCK [master](https://github.com/dmn-tck/tck/tree/master) branch,
-run [apply-patches.sh](apply-patches.sh) script like this:
+run the [apply-patches.sh](apply-patches.sh) script:
 
 ```shell
-$ ./apply-patches ~/Temp/tck
+$ ./apply-patches ~/temp/tck
 ```
 
 ## Removing patches
 
-There is also a dedicated [script](remove-patches.sh) named `remove-patches.sh`
+There is also a dedicated script [`remove-patches.sh`](apply-patches.sh)
 prepared for removing patches from the original [TCK](https://github.com/dmn-tck/tck) repository.
 Assuming that the [TCK](https://github.com/dmn-tck/tck) repository with applied patches
-is placed in `~/Temp` directory, then to remove all the patches,
-run [remove-patches.sh](remove-patches.sh) script like this:
+is placed in `~/temp` directory, then to remove all the patches,
+run [remove-patches.sh](remove-patches.sh) script:
 
 ```shell
-$ ./remove-patches ~/Temp/tck
+$ ./remove-patches ~/temp/tck
 ```
 
 ## License
