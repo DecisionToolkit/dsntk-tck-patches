@@ -20,8 +20,7 @@
 ## Overview
 
 This is an opinionated set of [patches](./patches) to the original [TCK](https://github.com/dmn-tck/tck) test cases.
-The rule of thumb is, that none of these patches changes the meaning of the test.
-There is a detailed explanation provided for each patch and why it was applied.
+None of these patches changes the meaning of the test. There is a detailed explanation why it was applied.
 
 ## Applying patches
 
