@@ -7,9 +7,9 @@ tasks:
   patch:
     desc: Applies patches to the original TCK repository
     cmds:
-      - cmd: ./apply-patches.sh ../tck
+      - cmd: ./scripts/apply-patches.sh ../tck
 
   unpatch:
     desc: Removes applied patches from the original TCK repository
     cmds:
-      - cmd: ./remove-patches.sh ../tck
+      - cmd: ./scripts/remove-patches.sh ../tck

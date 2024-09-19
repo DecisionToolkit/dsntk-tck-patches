@@ -35,6 +35,6 @@ git apply "$WORK_DIR/patches/compliance-level-3/1144-feel-round-half-down-functi
 
 ########################################################################################################################
 
-git status
+git status -s
 
 cd "$WORK_DIR" || exit 1

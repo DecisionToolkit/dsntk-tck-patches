@@ -6,6 +6,6 @@ cd "$1" || exit 1
 
 git restore .
 
-git status
+git status -s
 
 cd "$WORK_DIR" || exit 1
