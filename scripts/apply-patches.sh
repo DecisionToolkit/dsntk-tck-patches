@@ -17,7 +17,7 @@ if [ "$OFFSET_MELBOURNE" == "+1000" ]; then
   git apply "$WORK_DIR/patches/compliance-level-3/0103-feel-is-function/0103-feel-is-function.patch"
 fi
 
-git apply "$WORK_DIR/patches/compliance-level-3/1111-feel-matches-function/1111-feel-matches-function.patch"
+# git apply "$WORK_DIR/patches/compliance-level-3/1111-feel-matches-function/1111-feel-matches-function.patch"
 
 git apply "$WORK_DIR/patches/compliance-level-3/1141-feel-round-up-function/1141-feel-round-up-function.patch"
 
