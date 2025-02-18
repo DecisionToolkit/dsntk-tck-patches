@@ -15,11 +15,11 @@
 [apache-notice-url]: NOTICE
 [cc-badge]: https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg
 [cc-url]: https://github.com/DecisionToolkit/dsntk-tck-patches/blob/main/CODE_OF_CONDUCT.md
-[TCK patches]: https://github.com/DecisionToolkit/dsntk-tck-patches
 [TCK]: https://github.com/dmn-tck/tck
 [TCK master]: https://github.com/dmn-tck/tck/tree/master
 [apply-patches.sh]: ./scripts/apply-patches.sh
 [remove-patches.sh]: ./scripts/remove-patches.sh
+[repository-url]: https://github.com/DecisionToolkit/dsntk-tck-patches
 
 ## Overview
 
@@ -45,7 +45,7 @@ $ ./scripts/apply-patches ~/temp/tck
 
 ## Removing patches
 
-There is a dedicated script [remove-patches.sh] prepared for removing patches from the original [TCK] repository.
+There is also a dedicated script [remove-patches.sh] provided for removing patches from the original [TCK] repository.
 Assuming that the [TCK master] branch with applied patches is placed in `~/temp` directory,
 then to remove all the patches run [remove-patches.sh] script:
 
@@ -64,6 +64,6 @@ at your option.
 
 ## Contribution
 
-Any contributions to **[TCK patches]** are greatly appreciated.
+Any contributions to [**TCK patches**][repository-url] are greatly appreciated.
 All contributions intentionally submitted for inclusion in the work by you,
 shall be dual licensed as above, without any additional terms or conditions.
