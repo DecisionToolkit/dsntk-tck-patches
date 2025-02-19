@@ -1,9 +1,7 @@
 #!/usr/bin/env bash
 
-# current working directory
+# Current working directory.
 WORK_DIR=$(pwd)
-
-OFFSET_MELBOURNE=$(TZ=Australia/Melbourne date +%z)
 
 cd "$1" || exit 1
 
@@ -13,11 +11,7 @@ git restore .
 
 git apply "$WORK_DIR/patches/compliance-level-3/0089-nested-inputdata-imports/0089-nested-inputdata-imports.patch"
 
-if [ "$OFFSET_MELBOURNE" == "+1000" ]; then
-  git apply "$WORK_DIR/patches/compliance-level-3/0103-feel-is-function/0103-feel-is-function.patch"
-fi
-
-# git apply "$WORK_DIR/patches/compliance-level-3/1111-feel-matches-function/1111-feel-matches-function.patch"
+git apply "$WORK_DIR/patches/compliance-level-3/1111-feel-matches-function/1111-feel-matches-function.patch"
 
 git apply "$WORK_DIR/patches/compliance-level-3/1141-feel-round-up-function/1141-feel-round-up-function.patch"
 
