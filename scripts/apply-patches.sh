@@ -14,6 +14,10 @@ git apply "$WORK_DIR/patches/compliance-level-3/0089/0089-nested-inputdata-impor
 
 git apply "$WORK_DIR/patches/compliance-level-3/1111/1111-feel-matches-function.patch"
 
+git apply "$WORK_DIR/patches/compliance-level-3/1115/1115-feel-date-function-test-01.patch"
+
+git apply "$WORK_DIR/patches/compliance-level-3/1117/1117-feel-date-and-time-function-test-01.patch"
+
 git apply "$WORK_DIR/patches/compliance-level-3/1141/1141-feel-round-up-function.patch"
 
 git apply "$WORK_DIR/patches/compliance-level-3/1142/1142-feel-round-down-function.patch"
