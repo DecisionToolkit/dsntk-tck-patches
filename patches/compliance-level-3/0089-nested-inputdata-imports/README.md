@@ -1,4 +1,4 @@
-**DSNTK** | Decision Toolkit
+**dsntk** | Decision Toolkit
 
 ## 0089-nested-inputdata-imports
 

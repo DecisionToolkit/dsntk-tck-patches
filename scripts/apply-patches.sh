@@ -7,7 +7,8 @@ cd "$1" || exit 1
 
 git restore .
 
-########################################################################################################################
+################################################################################################################################
+# Apply patches.
 
 git apply "$WORK_DIR/patches/compliance-level-3/0089-nested-inputdata-imports/0089-nested-inputdata-imports.patch"
 
@@ -21,10 +22,12 @@ git apply "$WORK_DIR/patches/compliance-level-3/1143-feel-round-half-up-function
 
 git apply "$WORK_DIR/patches/compliance-level-3/1144-feel-round-half-down-function/1144-feel-round-half-down-function.patch"
 
-########################################################################################################################
+################################################################################################################################
+# Remove non-compliant tests from the directory tree.
 
-# remove non compliant tests from the directory tree
 rm -rf TestCases/non-compliant
+
+################################################################################################################################
 
 git status -s
 
