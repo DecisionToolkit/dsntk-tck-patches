@@ -8,15 +8,9 @@ cd "$1" || exit 1
 git restore .
 
 ##################################################################################################
-# Apply all patches, even if the test meaning changes.
+# Apply patches that do not change the test meaning.
 
 git apply "$WORK_DIR/patches/compliance-level-3/0089/0089-nested-inputdata-imports.patch"
-
-git apply "$WORK_DIR/patches/compliance-level-3/1111/1111-feel-matches-function.patch"
-
-git apply "$WORK_DIR/patches/compliance-level-3/1115/1115-feel-date-function-test-01.patch"
-
-git apply "$WORK_DIR/patches/compliance-level-3/1117/1117-feel-date-and-time-function-test-01.patch"
 
 git apply "$WORK_DIR/patches/compliance-level-3/1141/1141-feel-round-up-function.patch"
 

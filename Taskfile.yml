@@ -9,6 +9,11 @@ tasks:
     cmds:
       - cmd: ./scripts/apply-patches.sh ../tck
 
+  patch-ext:
+    desc: Applies some of the patches to the original TCK repository
+    cmds:
+      - cmd: ./scripts/apply-patches-ext.sh ../tck
+
   unpatch:
     desc: Removes applied patches from the original TCK repository
     cmds:
