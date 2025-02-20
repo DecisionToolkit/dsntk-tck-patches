@@ -24,8 +24,7 @@
 ## Overview
 
 This is an opinionated set of [patches](./patches) to the original [TCK] test cases.
-None of these patches changes the meaning of the test.
-There is a detailed explanation why it was applied.
+There is a detailed explanation why the patch was applied.
 
 ## Applying patches
 
