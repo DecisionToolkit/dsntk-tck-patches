@@ -1,4 +1,4 @@
-**dsntk** | Decision Toolkit
+**dsntk** | ÐecisionToolkit
 
 # TCK patches
 
@@ -24,7 +24,7 @@
 ## Overview
 
 This is an opinionated set of [patches](./patches) to the original [TCK] test cases.
-There is a detailed explanation why the patch was applied.
+For each patch there is a detailed explanation why it was applied.
 
 ## Applying patches
 
