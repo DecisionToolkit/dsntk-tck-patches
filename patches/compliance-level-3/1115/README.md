@@ -1,4 +1,4 @@
-**dsntk** | Decision Toolkit
+**dsntk** | ÐecisionToolkit
 
 ## 1115-feel-date-function-test-01
 
