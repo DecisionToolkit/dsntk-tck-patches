@@ -12,6 +12,8 @@ git restore .
 
 git apply "$WORK_DIR/patches/compliance-level-3/0089/0089-nested-inputdata-imports.patch"
 
+git apply "$WORK_DIR/patches/compliance-level-3/0103/0103-feel-is-function.patch"
+
 git apply "$WORK_DIR/patches/compliance-level-3/1111/1111-feel-matches-function.patch"
 
 git apply "$WORK_DIR/patches/compliance-level-3/1115/1115-feel-date-function-test-01.patch"
