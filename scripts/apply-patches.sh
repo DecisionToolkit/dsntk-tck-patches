@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 
-# Current working directory.
 WORK_DIR=$(pwd)
 
 cd "$1" || exit 1
@@ -9,6 +8,8 @@ git restore .
 
 ##################################################################################################
 # Apply all patches, even if the test meaning changes.
+
+git apply "$WORK_DIR/patches/compliance-level-3/0036/0036-dt-variable-input.patch"
 
 git apply "$WORK_DIR/patches/compliance-level-3/0089/0089-nested-inputdata-imports.patch"
 

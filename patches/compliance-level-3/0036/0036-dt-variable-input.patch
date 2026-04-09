@@ -1,0 +1,26 @@
+diff --git a/TestCases/compliance-level-3/0036-dt-variable-input/0036-dt-variable-input.dmn b/TestCases/compliance-level-3/0036-dt-variable-input/0036-dt-variable-input.dmn
+index aba4dee..a7e4a2d 100644
+--- a/TestCases/compliance-level-3/0036-dt-variable-input/0036-dt-variable-input.dmn
++++ b/TestCases/compliance-level-3/0036-dt-variable-input/0036-dt-variable-input.dmn
+@@ -18,13 +18,13 @@
+             <typeRef>time</typeRef>
+         </itemComponent>
+         <itemComponent name="aDateTime" id="_f305358d-dff6-4974-87a9-30f80ccfb7eb">
+-            <typeRef>date and time</typeRef>
++            <typeRef>dateTime</typeRef>
+         </itemComponent>
+         <itemComponent name="aDaysAndTimeDuration" id="_5ae0f547-6fe6-46ea-a203-0c740e3753d6">
+-            <typeRef>days and time duration</typeRef>
++            <typeRef>dayTimeDuration</typeRef>
+         </itemComponent>
+         <itemComponent name="aYearsAndMonthsDuration" id="_af3fccf6-8294-4a9d-bae7-dd74f8209cab">
+-            <typeRef>years and months duration</typeRef>
++            <typeRef>yearMonthDuration</typeRef>
+         </itemComponent>
+     </itemDefinition>
+     <decision name="Compare Boolean" id="_29fcbd74-791b-4700-b6b9-93654a21f492">
+@@ -487,4 +487,3 @@
+         </dmndi:DMNDiagram>
+     </dmndi:DMNDI>
+ </definitions>
+-
